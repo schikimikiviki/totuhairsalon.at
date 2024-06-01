@@ -67,9 +67,10 @@ const ContactSection = () => {
           <p className='heading'>Telefon</p>
           <p>0676 6188223</p>
           <p className='heading'>Adresse </p>
+          <p>Märzstraße 42, Tür 2 1150 Wien </p>
           <p>
-            Märzstraße 42, Tür 2 1150 Wien Öffentliche Anfahrt: U3
-            Schweglerstraße oder Buslinie 12A, Station Schweglerstraße
+            Öffentliche Anfahrt: U3 Schweglerstraße oder Buslinie 12A, Station
+            Schweglerstraße
           </p>
           <p className='heading'>Öffnungszeiten </p>
           <ul>

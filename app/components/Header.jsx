@@ -4,6 +4,8 @@ import facebook from '../media/fb.png';
 import telephone from '../media/phone.png';
 import map from '../media/maps-icon.png';
 import GrowIcon from './GrowIcon';
+import FlagSelection from './FlagSelection';
+import Menu from './Menu';
 
 const Header = () => {
   const backgroundImageStyle = {
@@ -13,6 +15,7 @@ const Header = () => {
     width: '100%',
     height: '400px',
     display: 'flex',
+    justifyContent: 'space-between',
   };
 
   const Icons = [
@@ -60,6 +63,17 @@ const Header = () => {
             link={icon.link}
           />
         ))}
+      </div>
+      <div
+        style={{
+          padding: '20px',
+          display: 'flex',
+          flexDirection: 'column',
+          justifyContent: 'center',
+        }}
+      >
+        <FlagSelection />
+        <Menu />
       </div>
     </div>
   );

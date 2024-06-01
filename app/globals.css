@@ -31,3 +31,26 @@ td {
 .price {
   text-align: right;
 }
+.Menu {
+  white-space: nowrap;
+}
+
+.links {
+  color: white;
+  display: block;
+  text-align: right;
+  padding: 12px;
+  text-decoration: none;
+}
+
+.links:hover {
+  text-decoration: underline;
+  text-decoration-color: rgb(206, 106, 97);
+  text-decoration-thickness: 3px;
+  text-underline-offset: 8px;
+  color: white;
+}
+
+.invisible {
+  display: none;
+}

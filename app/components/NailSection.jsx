@@ -61,39 +61,41 @@ const NailSection = () => {
         <table>
           <tbody>
             <tr>
-              <td class='product'>Nageldesign Acryl-Modellage - Neues Set </td>
-              <td class='filler'>......................</td>
-              <td class='price'>40€</td>
+              <td className='product'>
+                Nageldesign Acryl-Modellage - Neues Set{' '}
+              </td>
+              <td className='filler'>......................</td>
+              <td className='price'>40€</td>
             </tr>
             <tr>
-              <td class='product'>Nachfüllung mit Acryl</td>
-              <td class='filler'>......................</td>
-              <td class='price'>35€</td>
+              <td className='product'>Nachfüllung mit Acryl</td>
+              <td className='filler'>......................</td>
+              <td className='price'>35€</td>
             </tr>
             <tr>
-              <td class='product'>Maniküre mit Gellack</td>
-              <td class='filler'>......................</td>
-              <td class='price'>25€</td>
+              <td className='product'>Maniküre mit Gellack</td>
+              <td className='filler'>......................</td>
+              <td className='price'>25€</td>
             </tr>
             <tr>
-              <td class='product'>Maniküre - Lackieren mit Farbe</td>
-              <td class='filler'>......................</td>
-              <td class='price'>18€ </td>
+              <td className='product'>Maniküre - Lackieren mit Farbe</td>
+              <td className='filler'>......................</td>
+              <td className='price'>18€ </td>
             </tr>
             <tr>
-              <td class='product'>Maniküre </td>
-              <td class='filler'>......................</td>
-              <td class='price'>15€</td>
+              <td className='product'>Maniküre </td>
+              <td className='filler'>......................</td>
+              <td className='price'>15€</td>
             </tr>
             <tr>
-              <td class='product'> Entfernen - Gel, Acryl </td>
-              <td class='filler'>......................</td>
-              <td class='price'>15€</td>
+              <td className='product'> Entfernen - Gel, Acryl </td>
+              <td className='filler'>......................</td>
+              <td className='price'>15€</td>
             </tr>
             <tr>
-              <td class='product'> Fußpflege - nur Shellac </td>
-              <td class='filler'>......................</td>
-              <td class='price'>35€</td>
+              <td className='product'> Fußpflege - nur Shellac </td>
+              <td className='filler'>......................</td>
+              <td className='price'>35€</td>
             </tr>
           </tbody>
         </table>
