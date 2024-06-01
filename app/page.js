@@ -1,10 +1,15 @@
 import Header from './components/Header';
+import InfoSection from './components/InfoSection';
+import ContactSection from './components/ContactSection';
+import NailSection from './components/NailSection';
 
 export default function Home() {
   return (
     <main>
       <Header />
-      <h1>Test</h1>
+      <InfoSection />
+      <ContactSection />
+      <NailSection />
     </main>
   );
 }

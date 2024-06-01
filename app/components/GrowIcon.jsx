@@ -18,7 +18,6 @@ const GrowIcon = (props) => {
     if (props.isLink) {
       //open the link - facebook or maps
       window.open(props.link);
-      console.log(props.link);
     } else {
       window.location.href = 'tel:+43676206188223';
     }

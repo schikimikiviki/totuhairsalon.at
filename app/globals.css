@@ -8,3 +8,26 @@
 body {
   margin: 0;
 }
+
+.heading {
+  font-family: Trebuchet MS Italic;
+  font-size: 30px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+td {
+  padding: 8px;
+  border: none; /* Remove borders */
+}
+.product {
+  text-align: left;
+}
+.filler {
+  text-align: center;
+}
+.price {
+  text-align: right;
+}
