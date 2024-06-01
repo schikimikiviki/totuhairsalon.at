@@ -1,46 +1,89 @@
 import React from 'react';
-import Kundin1 from '../media/1.jpg';
-import Kundin2 from '../media/2.jpg';
-import Kundin3 from '../media/3.jpg';
 import Image from 'next/image';
+import krzesla from '../media/krzesla.jpg';
+import krzeslo from '../media/krzeslo.jpg';
+import kanapa from '../media/kanapa.jpg';
+import draussen from '../media/draussen.jpg';
+import Button from './Button';
 
 const ContactSection = () => {
   return (
     <div
       style={{
         backgroundColor: 'black',
-        padding: '50px',
-        display: 'flex',
-        minHeight: '700px',
-        lineHeight: 2,
-        textAlign: 'justify',
-        alignItems: 'center',
-        justifyContent: 'center',
       }}
     >
-      <div style={{ backgroundColor: 'white', padding: '50px' }}>
-        <p className='heading'>Unsere Kundinnen und Kunden </p>
-        <p>
-          Die Zufriedenheit unserer Kundinnen und Kunden ist unser höchstes
-          Gebot. Wir wissen, dass Schönheit für jeden etwas Anderes bedeutet –
-          dementsprechend gestalten wir unsere tägliche Arbeit. Dazu gehören
-          eine persönliche Typberatung und die Erfüllung individueller Wünsche.
-          Sehen Sie sich die Fotos an, um einen Einblick in unsere Arbeit zu
-          erhalten!
-        </p>
-        <p>
-          Sie sind sich nicht sicher, ob wir der richtige Frisörsalon für Sie
-          sind? Kommen Sie vorbei und lassen Sie sich selbst von unserer Arbeit
-          überzeugen! Zu unserer Klientel gehören die verschiedensten Menschen –
-          wir sind uns sicher, dass wir auch für Ihre Bedürfnisse die richtige
-          Lösung finden.
-        </p>
+      <div
+        style={{
+          display: 'flex',
+          gap: '30px',
+          padding: '30px 50px 30px 50px',
+          alignContent: 'center',
+          justifyContent: 'center',
+        }}
+      >
+        <Image src={krzesla.src} alt='image' width={300} height={250} />
+        <Image src={kanapa.src} alt='image' width={300} height={250} />
+        <Image src={draussen.src} alt='image' width={300} height={250} />
+        <Image src={krzeslo.src} alt='image' width={300} height={250} />
       </div>
-      <div style={{ padding: '50px', display: 'flex', gap: '30px' }}>
-        <Image src={Kundin1.src} alt='image' width={200} height={350} />
-        <Image src={Kundin2.src} alt='image' width={200} height={350} />
-        <Image src={Kundin3.src} alt='image' width={200} height={350} />
-        {/* <Button text='Mehr Fotos' isAction='page' /> */}
+      <div style={{ display: 'flex' }}>
+        <div
+          style={{
+            color: 'white',
+            padding: '50px',
+            lineHeight: 2,
+            textAlign: 'justify',
+          }}
+        >
+          <p className='heading'>Kontakt</p>
+          <p>
+            Sie haben Fragen zu unseren Leistungen oder möchten einen Termin
+            vereinbaren? Rufen Sie uns einfach un vereinbaren Sie einen Termin.
+          </p>
+          <Button text='Jetzt Termin buchen!' isAction='telephone' />
+
+          <br />
+          <br />
+
+          <iframe
+            src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2659.407494701102!2d16.327020876201978!3d48.19876647125028!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x476d077427071d7f%3A0xaa57558f5ff38d6d!2sTOTU%20Hair%20%26%20Beauty%20Salon!5e0!3m2!1sde!2sat!4v1717204092406!5m2!1sde!2sat'
+            width='600'
+            height='450'
+            style={{ border: 0 }}
+            allowfullscreen=''
+            loading='lazy'
+            referrerpolicy='no-referrer-when-downgrade'
+          ></iframe>
+        </div>
+        <div
+          style={{
+            color: 'white',
+            padding: '50px',
+            lineHeight: 2,
+            textAlign: 'justify',
+          }}
+        >
+          <p className='heading'>Telefon</p>
+          <p>0676 6188223</p>
+          <p className='heading'>Adresse </p>
+          <p>
+            Märzstraße 42, Tür 2 1150 Wien Öffentliche Anfahrt: U3
+            Schweglerstraße oder Buslinie 12A, Station Schweglerstraße
+          </p>
+          <p className='heading'>Öffnungszeiten </p>
+          <ul>
+            <li> Montag – Freitag: 08:00-19:00</li>
+            <li>Samstag: 08:00-14:00</li>
+          </ul>
+          <br />
+          <br />
+          <br />
+          <a href='https://vbdev.at/'>Website-Programmierung</a>
+        </div>
+        <div style={{ backgroundColor: 'white', padding: '50px' }}>
+          <p>Impressum</p> <p>Datenschutz</p> <p>Cookie-Einstellungen</p>
+        </div>
       </div>
     </div>
   );

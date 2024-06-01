@@ -1,10 +1,19 @@
 import React from 'react';
+import aneta from '../media/aneta.jpg';
+import Image from 'next/image';
 
 const TeamSection = () => {
   return (
-    <div>
-      <div>
-        <p>Unser Team </p>
+    <div
+      style={{
+        display: 'flex',
+        alignItems: 'center',
+        justifyContent: 'center',
+        padding: '50px 80px 50px 80px',
+      }}
+    >
+      <div style={{ padding: '50px', lineHeight: 2, textAlign: 'justify' }}>
+        <p className='heading'>Unser Team </p>
         <p>
           Schön, dass Sie sich kurz die Zeit nehmen, um uns ein wenig kennen zu
           lernen. Unser Team besteht ausschließlich aus Spezialisten, die
@@ -20,10 +29,13 @@ const TeamSection = () => {
         <p>
           Wenn Sie bisher noch nicht Kunde oder Kundin bei uns im Salon waren,
           würden wir uns sehr freuen, Sie bald persönlich begrüßen zu dürfen.
-          Wir freuen uns auf Sie. Ihre Aneta Griego & Team
         </p>
+        <p>Wir freuen uns auf Sie.</p>
+        <p>Ihre Aneta Griego & Team</p>
       </div>
-      <div></div>
+      <div style={{ padding: '50px' }}>
+        <Image src={aneta.src} alt='image' width={750} height={500} />
+      </div>
     </div>
   );
 };
