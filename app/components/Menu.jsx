@@ -1,22 +1,24 @@
 import React from 'react';
 
-const Menu = () => {
+const Menu = (props) => {
   return (
     <div className='Menu'>
       <a href='#' className='links selected'>
-        Unsere Kundinnen und Kunden
+        {props.isPolish
+          ? 'Nasi klienci i klientki'
+          : 'Unsere Kundinnen und Kunden'}
       </a>
       <a className='links' href='#'>
-        Unsere Produkte
+        {props.isPolish ? 'Nasze produkty' : '  Unsere Produkte'}
       </a>
       <a className='links ' href='#'>
-        Nageldesign
+        {props.isPolish ? 'Manicure' : 'Nageldesign'}
       </a>
       <a className='links' href='#'>
-        Unser Team
+        {props.isPolish ? 'O nas' : ' Unser Team'}
       </a>
       <a className='links' href='#'>
-        Unser Studio
+        {props.isPolish ? 'Nasze studio' : 'Unser Studio'}
       </a>
       <a className='links' href='#'>
         Kontakt

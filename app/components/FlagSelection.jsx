@@ -5,15 +5,17 @@ import niemcy from '../media/niemcy.jpg';
 import Image from 'next/image';
 import check from '../media/check.png';
 
-const FlagSelection = () => {
-  const [isPolish, setIsPolish] = useState(true);
+const FlagSelection = ({ onLanguageChange }) => {
+  const [isPolish, setIsPolish] = useState(false);
 
   const handleClickPolish = () => {
     setIsPolish(true);
+    onLanguageChange(true);
   };
 
   const handleClickGerman = () => {
     setIsPolish(false);
+    onLanguageChange(false);
   };
 
   return (
@@ -25,9 +27,6 @@ const FlagSelection = () => {
         color: 'white',
         fontSize: '11px',
         margin: '10px !important',
-        marginBottom: '30px',
-        // marginRight: '50px',
-        marginTop: '-50px',
       }}
     >
       <div
