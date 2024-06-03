@@ -4,13 +4,17 @@ import { useState } from 'react';
 import HeaderMinimal from '@/app/components/HeaderMinimal';
 import postsData from '../posts.json';
 import Image from 'next/image';
-import ineoImg from '../../media/ineo.jpg';
+import monat1 from '../../media/monat1.jpg';
+import monat2 from '../../media/monat2.jpg';
+import monat3 from '../../media/monat3.jpg';
+import monat4 from '../../media/monat4.jpg';
+
 import Link from 'next/link';
 
-export default function ineo() {
+export default function monat() {
   const [isPolish, setIsPolish] = useState(false);
 
-  let postDetails = postsData.posts[2];
+  let postDetails = postsData.posts[4];
 
   const updateLanguage = (isPolish) => {
     setIsPolish(isPolish);
@@ -56,12 +60,35 @@ export default function ineo() {
               </div>
             ))}
         <br />
-        <div className='image-box'>
+        <div className='image-box-2'>
           <Image
-            src={ineoImg.src}
+            src={monat1.src}
             alt='image'
-            width={750}
-            height={500}
+            width={500}
+            height={100}
+            style={{ width: 'inherit', height: 'inherit' }}
+          />
+          <Image
+            src={monat2.src}
+            alt='image'
+            width={500}
+            height={100}
+            style={{ width: 'inherit', height: 'inherit' }}
+          />
+        </div>
+        <div className='image-box-2'>
+          <Image
+            src={monat3.src}
+            alt='image'
+            width={500}
+            height={100}
+            style={{ width: 'inherit', height: 'inherit' }}
+          />
+          <Image
+            src={monat4.src}
+            alt='image'
+            width={500}
+            height={100}
             style={{ width: 'inherit', height: 'inherit' }}
           />
         </div>

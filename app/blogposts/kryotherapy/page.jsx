@@ -39,20 +39,20 @@ export default function kryotherapy() {
           }}
         />
         {isPolish
-          ? postDetails.headings.map((heading, index) => (
-              <div key={`section-${index}`}>
-                <p className={`heading-${heading.level}`}>
-                  <u>{heading.text}</u>
-                </p>
-                <p>{postDetails.paragraphs[index]}</p>
-              </div>
-            ))
-          : postDetails.headingsPL.map((heading, index) => (
+          ? postDetails.headingsPL.map((heading, index) => (
               <div key={`section-${index}`}>
                 <p className={`heading-${heading.level}`}>
                   <u>{heading.text}</u>
                 </p>
                 <p>{postDetails.paragraphsPL[index]}</p>
+              </div>
+            ))
+          : postDetails.headings.map((heading, index) => (
+              <div key={`section-${index}`}>
+                <p className={`heading-${heading.level}`}>
+                  <u>{heading.text}</u>
+                </p>
+                <p>{postDetails.paragraphs[index]}</p>
               </div>
             ))}
         <br />

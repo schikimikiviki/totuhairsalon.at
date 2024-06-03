@@ -174,8 +174,19 @@ a:hover {
   text-align: justify;
 }
 
+.image-box-2 {
+  display: flex;
+  width: 100%;
+  margin-top: 10px;
+  gap: 10px;
+}
+
 /* Media query for mobile devices */
 @media (max-width: 700px) {
+  .image-box-2 {
+    flex-direction: column;
+  }
+
   .image-box {
     width: 100%;
     height: auto;

@@ -96,13 +96,14 @@
     },
     {
       "title": "Monat - Premium Hair Care",
+      "titlePL": "Monat - Premium Hair Care",
       "headings": [{ "text": "Über Monat" }],
       "headingsPL": [{ "text": "O marce Monat" }],
       "paragraphs": [
         "Die Marke Monat gehört zu unserer Basisaussattung. Das Unternehmen stellt schon seit 2014 natürliche und vegane Haar-, und Hautpflegeprodukte her. Dabei stehen vor allem die Nachhaltigkeit und der Umwelteinfluss eine große Rolle. Monat ist eine Marke, die es sich zum Ziel gesetzt hat, seinen ökologischen Fußabdruck zu verkleinern und dabei stets top Qualität anzubieten."
       ],
       "paragraphsPL": [
-        "FirmaMonat jest częścią naszego podstawowego wyposażenia.Firma produkuje naturalne i wegańskie produkty do pielęgnacji włosów i skóry od 2014 roku. Zrównoważony rozwój i wpływ na środowisko naturalne odgrywają istotną rolę. Monat to marka, która postawiła sobie za cel zmniejszenie swojego śladu ekologicznego, jednocześnie zawsze oferując najwyższą jakość.  "
+        "Firma Monat jest częścią naszego podstawowego wyposażenia.Firma produkuje naturalne i wegańskie produkty do pielęgnacji włosów i skóry od 2014 roku. Zrównoważony rozwój i wpływ na środowisko naturalne odgrywają istotną rolę. Monat to marka, która postawiła sobie za cel zmniejszenie swojego śladu ekologicznego, jednocześnie zawsze oferując najwyższą jakość.  "
       ],
       "link": "true",
       "linktext": "Mehr dazu auf der Monat-Webseite",
@@ -296,6 +297,137 @@
       "link": "true",
       "linktext": "Mehr dazu auf der Insight-Webseite",
       "hypertext": "https://www.insightprofessional.it/en/hair-styling/products"
+    },
+    {
+      "title": "Die JOICO-Wiederaufbau-Kur in vier Phasen",
+      "titlePL": "Rekonstrukcja JOICO  z czterech etapów",
+      "headings": [
+        { "text": "Joico-Kur" },
+        { "text": "Phase 1 – Reinigen" },
+        { "text": "Phase 2 – Glätten" },
+        { "text": "Phase 3 – Wiederaufbau" },
+        { "text": "Phase 4 – Feuchtigkeit spenden" }
+      ],
+      "headingsPL": [
+        { "text": "Rekonstrukcja Joico" },
+        { "text": "Faza 1 - Oczyszczanie" },
+        { "text": "Faza 2 - Wygładzanie" },
+        { "text": "Faza 3 - Odbudowa    " },
+        { "text": "Faza 4 - Nawilżanie   " }
+      ],
+      "paragraphs": [
+        "Die Wirkung der JOICO-Kur konzentriert sich auf den Wiederaufbau beschädigter Haarstränge. Die Produkte der Joico K-PAK-Serie enthalten eine Reihe von Technologien und Inhaltsstoffen, die geschädigtes und geschwächtes Haar reparieren und stärken. Eine erhöhte Dosis Keratin repariert geschädigte Strähnen und macht sie zwei Mal stärker. ",
+        "Das gründlich reinigende Shampoo bereitet unser Haar auf die Aufnahme von Mikro-Inhaltsstoffen vor, die die geschädigte Haarstruktur wieder aufbauen. Bei der Reinigung werden Unreinheiten entfernt und die Haarkutikula geöffnet, damit die Inhaltsstoffe aufgenommen werden können. ",
+        "In diesem Schritt wird das Haar auf einen niedrigen pH-Wert angesäuert, die Haaroberfläche wird geglättet und das Haar wird perfekt weich. ",
+        "An diesem Punkt wird das Haar wieder aufgebaut und mit flüssigem Keratin regeneriert, das aus 19 Aminosäuren besteht, die zwischen die gespaltenen Haare gelangen und die Lücken in ihrer Struktur auffüllen.  ",
+        "In dieser Phase werden die Haarkutikula geschlossen und das Haar wird mit Feuchtigkeit versorgt, es wird geschmeidig und kämmbar."
+      ],
+      "paragraphsPL": [
+        "Jego działanie skupia się na odbudowie zniszczonych kosmyków już na poziomie cząstkowym. Produkty serii Joico K-PAK zawierają szereg technologii i składników, które naprawiają uszkodzone i wzmacniają osłabione włosy. Zwiększona dawka keratyny naprawia zniszczone kosmyki sprawiając, że stają się one 2 razy mocniejsze.",
+        "Szampon głęboko oczyszczający przygotowuje nasze włosy do przyjęcia mikroskładników mających za zadanie odbudować uszkodzoną strukturę włosa. Podczas mycia usuwane są wszelkie zanieczyszczenia a łuski włosa są rozchylane, aby móc jak najlepiej przyjąć składniki produktów. ",
+        "Podczas tego kroku zakwaszamy włosy nadając im niski poziom pH, powierzchnia włosa zostaje wygładzona, a same włosy stają się idealnie miękkie. ",
+        "W tym momencie następuje odbudowanie włosa — regeneracja za pomocą płynnej keratyny, składającej się z 19 aminokwasów, która dociera pomiędzy rozchylone łuski włosów i wypełnia luki w ich strukturze.  ",
+        "Podczas tego etapu łuski włosa są domykane, włosy stają się nawilżone, elastyczne i podatne na układanie."
+      ],
+      "link": false
+    },
+    {
+      "title": " True Keratin Bio-Acai-Behandlung",
+      "titlePL": "Keratyna Organiczna True Keratin Kuracja Acai",
+      "headings": [{ "text": "Über die Behandlung" }],
+      "headingsPL": [{ "text": "O kuracji" }],
+      "paragraphs": [
+        "Die True Keratin Acai Berry Behandlung enthält Beeren, die eine Kombination aus Mineralien und Aminosäuren zur Stärkung der Haare enthalten. Die Behandlung ist reich an Eiweiß, den Vitaminen A, Bl, E und C, Omega-6 und Omega-9, Fettsäuren, Ballaststoffen und Enzymen. Die Kraft der Antioxidantien verjüngt das Haar, reduziert Frizz und verbessert die Haarfarbe. Der hohe Anteil an Antioxidantien in der ACAT-Frucht trägt dazu bei, dass das Haar weich wird. Berry Keratin ist ideal geeignet für lockiges und geschädigtes Haar, hat es hervorragende regenerierende, nährende, glättende Eigenschaften. Es verleiht Glanz und verbessert die Haarfarbe."
+      ],
+      "paragraphsPL": [
+        "Kuracja True Keratin Acai Berry zawiera fioletowe jagody, które zawierają kombinację minerałów i aminokwasów, aby wzmocnić włosy. Bogate w białko, witaminy A, Bł, E i C, omega-6 i omega 9, kwasy tłuszczowe, włókna i enzymy. Potęga przeciwutleniaczy odmładza włosy, redukuje skręt i poprawia kolor włosów.Duża ilości antyoxydantów zawartych w owocach ACAT pomaga w uzyskaniu efektu delikatnych, odbudowanych zdrowych gładkich włosów. Keratyna Jagodowa Idealnie nadaje się do włosów, kręconych i zniszczonych, ma doskonałe właściwości regeneracyjne, odżywcze, wygładzające i prostujące. Dodaje blasku i poprawia koloryt włosów."
+      ],
+      "link": false
+    },
+    {
+      "title": "CocoChoco Professional Keratin",
+      "titlePL": "Keratyna CocoChoco Professional",
+      "headings": [{ "text": "Über die Behandlung" }],
+      "headingsPL": [{ "text": "O kuracji" }],
+      "paragraphs": [
+        "CocoChoco Professional Keratin ist eine fortschrittliche Behandlung, die selbst stark geschädigtes Haar in glattes, geschmeidiges und glänzendes Haar verwandelt. Die Behandlung basiert auf der Verwendung von Keratin als wichtigstem und wirksamstem Inhaltsstoff, dem Grundbaustein von Haut, Nägeln und Haaren. Keratin als organische und natürliche Substanz gibt Ihrem Haar die Möglichkeit, in seinen ursprünglichen Zustand zurückzukehren – zu einem natürlichen und gesunden Aussehen. Die Behandlung kann insbesondere (im Gegensatz zu anderen Methoden) bei gefärbtem, durch chemische Behandlungen geschädigtem und gebleichtem Haar durchgeführt werden. Das Glätten der Haare mit Keratin wird für Menschen empfohlen, deren Haar „sich sträubt“, trocken, ergraut, beschädigt, unförmig oder schwer zu handhaben ist."
+      ],
+      "paragraphsPL": [
+        "CocoChoco Kuracja Keratynowa to zaawansowana terapia, która przemieni nawet bardzo zniszczone włosy w proste, gładkie i lśniące. Terapia jest oparta na zastosowaniu keratyny jako głównego i najskuteczniejszego składnika, który jest podstawowym budulcem skóry, paznokci i włosów. Keratyna jako organiczna i naturalna substancja daje Twoim włosom szansę do powrotu do ich pierwotnego stanu- naturalnego i zdrowego wyglądu. Zabieg można przeprowadzić w szczególności (w odróżnieniu od innych metod) na włosach farbowanych, zniszczonych zabiegami chemicznymi oraz rozjaśnianych. Keratynowe prostowanie włosów polecane jest osobom o włosach skłonnych do puszenia się, przesuszonych, sianowatych, zniszczonych, bezkształtnych, trudnych do ułożenia."
+      ],
+      "link": false
+    },
+    {
+      "title": "Botox für die Haare",
+      "titlePL": "Botox dla włosów",
+      "headings": [{ "text": "Über die Behandlung" }],
+      "headingsPL": [{ "text": "O kuracji" }],
+      "paragraphs": [
+        "Botox ist eine professionelle Friseurbehandlung, die darauf abzielt, das Haar wieder aufzubauen, es zu regenerieren und seinen Zustand zu verbessern. Das Ergebnis ist, dass das Haar wieder glänzt, weich und elastisch wird, sich glatt und zart anfühlt. Botox besteht aus der Injektion von Nährstoffen in die Haarsträhnen, die die Defekte zwischen der Haarrinde und der Schuppenschicht beheben. Die für Haar-Botox verwendeten Präparate enthalten hauptsächlich Kollagen, Hyaluronsäure und Acai-Beeren. Wie man sieht, hat das Haar-Botox wenig mit einem so populären Verfahren der ästhetischen Medizin gemein. Hier gibt es kein Botulinumtoxin, und es gibt keine Spritzen (na ja, fast). In der Tat ist Botox für Haare eine nicht-invasive Behandlung. Die Behandlung wirkt direkt auf die innere Struktur des Haares und verbessert sein Aussehen. Nach der Behandlung ist das Haar glänzend, weich, geschmeidig und besser frisierbar. Interessanterweise wird die Farbe des Haares kräftiger und lebendiger, was vor alle Menschen mit gefärbtem Haar zu schätzen wissen. "
+      ],
+      "paragraphsPL": [
+        "Botox to profesjonalny zabieg fryzjerski, którego zadaniem jest odbudowa włosa, jego regeneracja i poprawa kondycji. W efekcie włosy powinny odzyskać blask, być na nowo miękkie i elastyczne, gładkie i delikatne w dotyku. Botox na włosy polega na wtłoczeniu w kosmyki składników odżywczych, które uzupełniają ubytki między korą a otoczką włosa. Preparaty stosowane do botoksu włosów zawierają przede wszystkim kolagen, kwas hialuronowy i jagodyAcaiWidać, że botox do włosów ma niewiele wspólnego z tak popularnym zabiegiem medycyny estetycznej. Nie ma tutaj toksyny botulinowej, nie ma też strzykawek (no prawie). W zasadzie botox na włosy to zabieg bezinwazyjny. Zabieg ten oddziałuje bezpośrednio na wewnętrzną strukturę włosa, poprawiając ich wygląd. Po zabiegu włosy są lśniące, miękkie, gładkie i lepiej się też układają. A co ciekawe, ich kolor staje się mocniejszy, bardziej żywy, co ucieszy posiadaczki pasm koloryzowanych."
+      ],
+      "link": false
+    },
+    {
+      "title": "Glättung mit Nanoplastik",
+      "titlePL": "Prostowanie za pomocą nanoplastii",
+      "headings": [
+        { "text": "Nanoplastik" },
+        { "text": "Wirkung" },
+        { "text": "Vorteile" }
+      ],
+      "headingsPL": [
+        { "text": "Nanoplastik" },
+        { "text": "Efekt" },
+        { "text": "Zalety" }
+      ],
+      "paragraphs": [
+        "Die Haarglättung mit Nanoplastik ist eine schonendere Art der Keratin-Glättung. Die Ergebnisse sind dabei besonders dauerhaft und können bis zu fünf Monaten anhalten. Der Vorgang der Glättung mit Nanoplastik dauert nicht länger als eine Stunde. Nach der Glättung ist das Haar stabiler und weniger anfällig für Spliss. Bei dieser Art der Haarglättung werden keine schädlichen Substanzen eingesetzt – daher eignet sie sich auch für schwangere und stillende Frauen. ",
+        "Die Nanoplastikbehandlung ist eine neue Methode, bei der Wirkstoffe in das Haar eingearbeitet werden. Damit die Moleküle das Innere des Haares erreichen können, sind sie extrem klein, fast so groß wie ein Atom, das das gesamte Haar durchdringt. Vor der Durchführung der Behandlung muss der Friseur den Kopf mit einem speziell für dieses Verfahren entwickelten Shampoo waschen. Anschließend wird ein spezielles Präparat, das reich an Keratin und aktiven und aufbauenden Komponenten ist, auf das Haar aufgetragen, das direkt zu den Haarzellen gelangt. Das Präparat sollte etwa eine Stunde lang auf dem Kopf verbleiben, je nachdem, wie stark das natürliche Haar gelockt ist und in welchem Zustand es sich befindet. Nach dieser Zeit muss das Haar sehr gründlich getrocknet werden. Schon nach diesen Schritten wirkt das Haar viel glatter. Damit der Effekt jedoch perfekt und dauerhaft ist, wird das Haar mit einem speziell dafür entwickelten Glätteisen geglättet. Das Glätten sollte mehrmals wiederholt werden, damit die Nährstoffe unter dem Einfluss der Temperatur in das Haar eindringen können. Anschließend wird der Kopf gründlich gewaschen und eine spezielle Maske aufgelegt, die die Wirkung der Behandlung aufrechterhält. Die gesamte Behandlung kann bis zu 5-6 Stunden dauern.   ",
+        "Nanoplastik ist eine Antwort auf die wachsende Nachfrage der Verbraucher nach natürlichen, ökologischen Produkten, die für die Gesundheit und die Umwelt sicher sind. Der größte Vorteil der Behandlung ist, dass das Haar nicht geschädigt wird und Sie bis zu mehreren Monaten gesund aussehendes, glattes Haar genießen können. Das Haar wird glänzend und locker, es verfilzt nicht und kräuselt sich nicht, auch nicht unter den anspruchsvollsten Wetterbedingungen. Außerdem dringen die in den Präparaten enthaltenen Nährstoffe tief in das Haar ein und bauen dessen Struktur wieder auf und stärken es. Das im Präparat enthaltene Keratin verschließt zusätzlich die Haarschuppen, indem es den natürlichen Feuchtigkeitsgehalt im Inneren bewahrt und den negativen Einfluss äußerer Faktoren verhindert, wodurch das Haar lange Zeit schön aussieht. Ein großer Vorteil der Behandlung ist zweifellos die Tatsache, dass das Haar nicht beschwert wird und nicht „aalglatt“ aussieht, sondern leicht und zart, wobei alle Vorteile einer dauerhaften Glättung erhalten bleiben. Wenn Sie sich für eine Nanoplastik entscheiden, sollten Sie bedenken, dass Ihr Haar nach der Behandlung bis zu 3 Töne heller und etwas wärmer werden kann. Dies betrifft vor allem farbbehandeltes Haar. Außerdem kann das Haar nach der Behandlung schneller fettig werden und muss häufiger gewaschen werden als zuvor. Die Kombination aus perfekt glattem Haar für mehrere Monate und natürlichen pflanzlichen Inhaltsstoffen ist jedoch ein großer Vorteil, der Ihr Haar nicht nur perfekt geschmeidig, sondern auch gesund und gepflegt macht. "
+      ],
+      "paragraphsPL": [
+        "Prostowanie włosów za pomocą nanoplastików to delikatniejsza metoda keratynowego prostowania. Rezultaty są szczególnie trwałe i mogą utrzymywać się do pięciu miesięcy. Proces wygładzania nanoplastikami trwa nie dłużej niż godzinę. Włosy po prostowaniu są stabilniejsze i mniej podatne na rozdwajanie się końcówek. Ten rodzaj prostowania włosów nie wykorzystuje żadnych szkodliwych substancji – dlatego nadaje się również dla kobiet w ciąży i karmiących piersią.",
+        "Die Nanoplastia jest nowym zabiegiem, który polega na wprowadzeniu do włosów substancji aktywnych. Aby cząsteczki mogły dotrzeć do wnętrza włosa są one niezwykle małe, niemal wielkości atomu, który wnika w całego włosa. Przed wykonaniem Nanoplastii fryzjer musi umyć głowę specjalnie przeznaczonym do tego zabiegu szamponem. Następnie na włosy nakładany jest specjalny preparat bogaty w keratynę oraz składniki aktywne i odbudowujące, które docierają bezpośrednio do komórek włosów. Preparat należy trzymać na głowie około godziny, w zależności od stopnia skrętu naturalnego włosa i ich kondycji. Po tym czasie włosy muszą zostać bardzo dokładnie wysuszone. Już po tych czynnościach włosy sprawiają wrażenie dużo bardziej prostych. Jednak, żeby efekt był idealny i długotrwały w kolejnym kroku włosy są prostowane specjalnie przeznaczoną do Nanoplastii prostownicą. Prostowanie należy powtórzyć kilkukrotnie, aby pod wpływem temperatury składniki odżywcze miały możliwość wniknąć w głąb włosa. Kolejny etap to dokładne umycie głowy oraz nałożenie na włosy specjalnej maski, która utrwali efekty zabiegu. Cały zabieg może trwać nawet do 5-6 godzin. ",
+        "Nanoplastia jest odpowiedzią na coraz większe zapotrzebowanie konsumentów na naturalne, ekologiczne produkty, które są bezpieczne dla zdrowia oraz środowiska. Największa zaletą zabiegu Jest fakt, te nie niszczy on włosów I pozwala cieszyć się zdrowo wyglądającymi, prostymi włosami nawet do kilku miesięcy. Włosy stają się pełne blasku, lśniące I sypkie, nie plączą się I nie puszą nawet w najbardziej wymagających warunkach atmosferycznych. Dodatkowo substancje odżywcze zawarte w preparatach do Nanoplastii wnikają głęboko wewnątrz włosa odbudowując I wzmacniając jego strukturę. Keratyna zawarta w preparacie dodatkowo domyka łuski włosów zatrzymując wewnątrz ich naturalny poziom nawilżenia i zapobiegając negatywnemu oddziaływaniu czynników zewnętrznych, dzięki czemu włosy wyglądają pięknie przez długi czas. Niewątpliwie olbrzymią zaletą zabiegu jest fakt, że włosy nie są obciążone I nie wyglądają na przylizane, sprawiają wrażenie lekkich I delikatnych, przy jednoczesnym zachowaniu wszystkich zalet trwałego prostowania. Decydując się na zabieg Nanoplastii należy jednak pamiętać, że po jego wykonaniu włosy mogą rozjaśnić się nawet do 3 tonów i nieco ocieplić swój odcień. Dotyczy to przede wszystkim włosów farbowanych. Dodatkowo włosy po zabiegu mogą się szybciej przetłuszczać, przez co będą wymagały częstszego niż do tej pory mycia. Jednak połączenie idealnie prostych włosów na okres kilku miesięcy i naturalnych składników pochodzenia roślinnego jest olbrzymią zaletą, która sprawi, że włosy będą nie tylko idealnie gładkie, ale również zdrowe I odżywione. "
+      ],
+      "link": false
+    },
+    {
+      "title": "Haarlaminierung",
+      "titlePL": "Laminowanie włosów",
+      "headings": [{ "text": "Die Behandlung" }],
+      "headingsPL": [{ "text": "O kuracji" }],
+      "paragraphs": [
+        "Die Laminierbehandlung für das Haar beruht auf der Glättung der Haarsträhnen. Die Strähnen werden weich und geschmeidig, glänzen und lassen sich leicht frisieren. Sie werden auch gestärkt. Im Wesentlichen reduziert das Laminieren auch Spliss und pflegt die Strähnen intensiv. Zum Laminieren der Haare werden zwei Substanzen verwendet: Keratin und Gelatine. Die erste Zutat bildet die Grundlage für professionelle Haarlaminierung, die zweite ist praktisch in jedem Lebensmittelgeschäft zu finden. Beide Präparate sollen die Haarkutikula schließen, was das Haar glatt und geschmeidig macht."
+      ],
+      "paragraphsPL": [
+        "Zabieg laminowania włosów polega na wygładzaniu i nabłyszczeniu pasm. Pasma stają się miękkie i gładkie, ładnie lśnią i łatwo je ułożyć. Są też wzmocnione. W zasadzie laminowanie zmniejsza też ilość rozdwojonych końcówek i intensywnie odżywia pasma.Do laminowania włosów używa się dwóch substancji: keratyny i żelatyny. Pierwszy składnik stanowi bazę profesjonalnych kosmetyków do laminowania włosów, ten drugi możesz znaleźć praktycznie w każdym sklepie spożywczym. Oba preparaty powinny domknąć łuski włosów, co z kolei ma sprawi, że będą gładkie i leiste."
+      ],
+      "link": false
+    },
+    {
+      "title": "Haare polieren – Haare schneiden auf moderne Art",
+      "titlePL": "Polerowanie włosów - strzyżenie włosów w nowoczesny sposób",
+      "headings": [
+        { "text": "Die Behandlung" },
+        { "text": "Für wen ist die Behandlung gedacht?" }
+      ],
+      "headingsPL": [
+        { "text": "O kuracji" },
+        { "text": "Dla kogo przeznaczony jest zabieg?" }
+      ],
+      "paragraphs": [
+        "Polieren ist eine innovative Behandlung, die Ihr Haar gesund und schön aussehen lässt. Diese moderne Methode des Haarschneidens verbessert das Aussehen der Haare erheblich. Die Wirkung ist sofort spürbar, kein Verlust an Volumen oder Länge. Das Haar wird weicher, griffiger und glänzender. Das Polieren entfernt bis zu 90 % der geschädigten Haarspitzen und verhindert, dass das Haar kaputt wird.Wir schneiden dafür mit einem Spezialaufsatz des Rasierers 0,3 bis 1 cm der Haare vom Ansatz bis zu den Spitzen ab. Schicht für Schicht, Strähne für Strähne wird Ihr gesamtes Haar erneuert, ohne an Volumen oder Länge zu verlieren. Diese Behandlung kann alle 2-4 Monate wiederholt werden.",
+        "Wir empfehlen diese Behandlung für Kunden und Kundinnen, die: über die gesamte Länge beschädigte Spitzen haben, ihr Haar wird durch Glätteisen verbrannt haben, Spliss haben oder sich die Haare wachsen lassen "
+      ],
+      "paragraphsPL": [
+        "Polerowanie to innowacyjny zabieg, dzięki któremu Twoje włosy będą wyglądały zdrowo i pięknie. Ta nowoczesna metoda podcinania włosów, znacznie poprawia ich wygląd. Efekt ten zauważalny jest wręcz od razu. Bez utraty objętości i długości. Włosy stają się miękkie, łatwiejsze do ułożenia i bardziej lśniące. Polerowanie usuwa do 90% uszkodzonych końcówek i jednocześnie zapobiega rozpadowi włosów.Wypróbuj go, a już nigdy nie wrócisz do tradycyjnego podcinania końcówek. za pomocą specjalnej nasadki, którą zakłada się na maszynkę, obcinamy od 0,3 do 1 cm włosów zaczynając od nasady i do samych końców. Warstwa po warstwie, pasmo po paśmie, odnawiamy wszystkie włosy, ale nie tracimy z objętości i długości włosów. Taki zabieg można powtarzać co 2-4 miesiące.",
+        "Ten zabieg polecamy klientkom, które: mają zniszczone końcówki na całej długości, mają spalone włosy od prostownicy, mają rozdwojone końcówki albo zapuszczają włosy  "
+      ],
+      "link": false
     }
   ]
 }
