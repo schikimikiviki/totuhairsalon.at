@@ -76,11 +76,15 @@ a:hover {
 }
 
 .text-content {
-  padding: 50px;
   /* flex: 1 1 auto; */
   line-height: 2;
   text-align: justify;
   width: 40%;
+  padding: 20px;
+}
+
+.text-inner {
+  padding: 50px;
 }
 
 .icons-menu {
@@ -103,20 +107,121 @@ a:hover {
   z-index: -1;
 }
 
-.mobile-header {
+.mobile-logo {
   display: none;
+}
+
+.mobile-menu-div {
+  display: none;
+}
+
+.review-div {
+  background-color: black;
+  padding: 50px;
+  display: flex;
+  min-height: 700px;
+  line-height: 2;
+  text-align: justify;
+  align-items: center;
+  justify-content: center;
+}
+
+.review-text {
+  background-color: white;
+  padding: 50px;
+}
+
+.team-div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 50px 80px 50px 80px;
+}
+
+.aneta-img {
+  padding: 50px;
+}
+
+.aneta-img img {
+  width: 100%;
+  height: auto;
+}
+
+.salon-images {
+  display: flex;
+  gap: 30px;
+  padding: 30px 50px 30px 50px;
+  align-content: center;
+  justify-content: center;
+}
+
+.contact-info-div {
+  display: flex;
 }
 
 /* Media query for mobile devices */
 @media (max-width: 700px) {
+  .responsive-iframe {
+    width: 100%;
+    height: auto;
+    aspect-ratio: 16 / 9; /* Maintain a 16:9 aspect ratio */
+  }
+
+  .contact-info-div {
+    flex-direction: column;
+  }
+
+  .salon-images {
+    flex-direction: column;
+    padding: 30px !important;
+  }
+
+  .aneta-img {
+    padding: 0;
+    width: 100%;
+  }
+  .team-div {
+    flex-direction: column;
+    padding: 10px !important;
+  }
+
+  .nail-bg {
+    display: none;
+  }
+
+  .more-clients {
+    display: none;
+  }
+  .review-text {
+    padding: 10px;
+  }
+
+  .review-div {
+    flex-direction: column;
+  }
+
+  .menu-div {
+    display: none;
+  }
+
+  .mobile-menu-div {
+    display: block;
+    position: relative;
+    background-color: white;
+    z-index: 2;
+    margin-top: 150px;
+  }
+
   .flag-selection {
     display: block !important; /* Override display property */
   }
-  .mobile-header {
-    /* display: block;
+
+  .mobile-logo {
+    display: block;
     position: absolute;
     top: 0;
-    left: 0; */
+    left: 0;
+    width: 100%;
   }
   .background-header {
     display: none;
@@ -135,13 +240,8 @@ a:hover {
   }
 
   .text-content {
-    width: 90%;
+    width: auto;
     line-height: 2;
-    margin: 10px;
-    padding: 20px;
-  }
-
-  .text-content > p {
     display: inline-block;
     overflow-wrap: break-word;
     word-wrap: break-word;
@@ -151,4 +251,19 @@ a:hover {
     -webkit-hyphens: none;
     -moz-hyphens: none;
   }
+
+  .text-inner {
+    padding: 10px;
+  }
+  /* 
+  .text-content > p {
+    display: inline-block;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    word-break: normal;
+    line-break: strict;
+    hyphens: none;
+    -webkit-hyphens: none;
+    -moz-hyphens: none;
+  } */
 }

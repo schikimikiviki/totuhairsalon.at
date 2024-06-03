@@ -8,6 +8,8 @@ import FlagSelection from './FlagSelection';
 import Menu from './Menu';
 import Image from 'next/image';
 import logo2 from '../media/logo.jpg';
+import croppedLogo from '../media/cropped-logo2.png';
+import MobileMenu from './MobileMenu';
 
 const Header = ({ sendIsPolish }) => {
   const [isPolish, setIsPolish] = useState(false);
@@ -42,56 +44,64 @@ const Header = ({ sendIsPolish }) => {
   };
 
   return (
-    <div
-      style={{
-        position: 'relative',
-        display: 'flex',
-        justifyContent: 'space-between',
-      }}
-    >
-      <div className='background-header'>
-        <Image
-          src={headerImage.src}
-          alt='image'
-          layout='fill'
-          objectFit='cover'
-        />
-      </div>
-      {/* <div className='mobile-logo'>
-        <Image
-          src={logo2.src}
-          alt='image'
-          width={1000}
-          height={800}
-          style={{ width: '500px', height: '300px', zIndex: -1 }}
-        />
-      </div> */}
-      <div className='icons-menu'>
-        {Icons.map((icon, index) => (
-          <GrowIcon
-            key={index}
-            isLink={icon.isLink}
-            icon={icon.icon}
-            width={icon.width}
-            height={icon.height}
-            style={icon.style}
-            link={icon.link}
-          />
-        ))}
-      </div>
+    <>
       <div
         style={{
-          padding: '20px',
           position: 'relative',
-          zIndex: 2,
+          display: 'flex',
+          justifyContent: 'space-between',
         }}
       >
-        <FlagSelection onLanguageChange={updateLanguage} />
-        <br />
-        <br />
-        <Menu isPolish={isPolish} />
+        <div className='background-header'>
+          <Image
+            src={headerImage.src}
+            alt='image'
+            layout='fill'
+            objectFit='cover'
+          />
+        </div>
+        <div className='mobile-logo'>
+          <Image
+            src={croppedLogo.src}
+            alt='image'
+            width={1000}
+            height={800}
+            style={{ width: '100%', height: '300px' }}
+          />
+        </div>
+        <div className='icons-menu'>
+          {Icons.map((icon, index) => (
+            <GrowIcon
+              key={index}
+              isLink={icon.isLink}
+              icon={icon.icon}
+              width={icon.width}
+              height={icon.height}
+              style={icon.style}
+              link={icon.link}
+            />
+          ))}
+        </div>
+        <div
+          style={{
+            padding: '20px',
+            position: 'relative',
+            zIndex: 2,
+          }}
+        >
+          <FlagSelection onLanguageChange={updateLanguage} />
+          <br />
+          <br />
+
+          <div className='menu-div'>
+            <Menu isPolish={isPolish} />
+          </div>
+        </div>
       </div>
-    </div>
+      <div className='mobile-menu-div'>
+        <MobileMenu isPolish={isPolish} />
+      </div>
+    </>
   );
 };
 
