@@ -5,6 +5,7 @@ import krzeslo from '../media/krzeslo.jpg';
 import kanapa from '../media/kanapa.jpg';
 import draussen from '../media/draussen.jpg';
 import Button from './Button';
+import Link from 'next/link';
 
 const ContactSection = (props) => {
   return (
@@ -32,7 +33,7 @@ const ContactSection = (props) => {
           <p>
             {props.isPolish
               ? 'Masz pytania dotyczące naszych usług lub chciałbyś umówić się na spotkanie? Po prostu zadzwoń do nas lub skorzystaj z linku Treatwell, aby umówić się na wizytę.'
-              : 'Sie haben Fragen zu unseren Leistungen oder möchten einen Termi vereinbaren? Rufen Sie uns einfach un vereinbaren Sie einen Termin.'}
+              : 'Sie haben Fragen zu unseren Leistungen oder möchten einen Termi vereinbaren? Rufen Sie uns einfach an und vereinbaren Sie einen Termin.'}
           </p>
           <Button
             text={
@@ -102,8 +103,17 @@ const ContactSection = (props) => {
           </a>
         </div>
         <div style={{ backgroundColor: 'white', padding: '50px' }}>
-          <p>{props.isPolish ? 'Stopka redakcyjna' : 'Impressum'}</p>
-          <p>{props.isPolish ? 'Polityka prywatności' : 'Datenschutz'}</p>
+          <p>
+            <Link href='/info'>
+              {props.isPolish ? 'Stopka redakcyjna' : 'Impressum'}
+            </Link>
+          </p>
+          <p>
+            <Link href='/data'>
+              {props.isPolish ? 'Polityka prywatności' : 'Datenschutz'}
+            </Link>
+          </p>
+
           <p>
             {props.isPolish
               ? 'Ustawienia plików cookie'

@@ -52,12 +52,7 @@ const Header = ({ sendIsPolish }) => {
         }}
       >
         <div className='background-header'>
-          <Image
-            src={headerImage.src}
-            alt='image'
-            layout='fill'
-            objectFit='cover'
-          />
+          <Image src={headerImage.src} alt='image' fill />
         </div>
         <div className='mobile-logo'>
           <Image

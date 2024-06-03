@@ -2,7 +2,6 @@
 
 import { useState } from 'react';
 import HeaderMinimal from '../components/HeaderMinimal';
-import Button from '../components/Button';
 import Link from 'next/link';
 
 export default function info() {

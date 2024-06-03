@@ -159,8 +159,35 @@ a:hover {
   display: flex;
 }
 
+.team-text {
+  padding: 50px;
+  line-height: 2;
+  text-align: justify;
+  width: 50%;
+}
+
+.post-inner {
+  display: flex;
+  flex-direction: column;
+  padding: 100px;
+  line-height: 2;
+  text-align: justify;
+}
+
 /* Media query for mobile devices */
 @media (max-width: 700px) {
+  .image-box {
+    width: 100%;
+    height: auto;
+  }
+  .post-inner {
+    padding: 20px;
+  }
+
+  .team-text {
+    width: 100%;
+    padding: 20px !important;
+  }
   .responsive-iframe {
     width: 100%;
     height: auto;

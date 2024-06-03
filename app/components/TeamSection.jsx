@@ -5,7 +5,7 @@ import Image from 'next/image';
 const TeamSection = (props) => {
   return (
     <div className='team-div'>
-      <div style={{ padding: '50px', lineHeight: 2, textAlign: 'justify' }}>
+      <div className='team-text'>
         <p className='heading'>{props.isPolish ? 'O nas' : 'Unser Team'} </p>
         <p>
           {props.isPolish
