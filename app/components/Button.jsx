@@ -28,6 +28,8 @@ const Button = (props) => {
     if (props.isAction == 'telephone') {
       //make call
       window.location.href = 'tel:+43676206188223';
+    } else if (props.isAction == 'navigate') {
+      props.onClick();
     } else {
       // open link
       window.open(props.link);

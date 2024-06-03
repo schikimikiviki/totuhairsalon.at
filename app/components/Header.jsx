@@ -7,7 +7,6 @@ import GrowIcon from './GrowIcon';
 import FlagSelection from './FlagSelection';
 import Menu from './Menu';
 import Image from 'next/image';
-import logo2 from '../media/logo.jpg';
 import croppedLogo from '../media/cropped-logo2.png';
 import MobileMenu from './MobileMenu';
 
