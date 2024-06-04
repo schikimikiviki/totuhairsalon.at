@@ -3,6 +3,7 @@
 :root {
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
     'Lucida Sans', Arial, sans-serif;
+  font-size: 20px;
 }
 
 body {
@@ -66,7 +67,6 @@ a:hover {
 .info-section {
   display: flex;
   flex-direction: row;
-  margin-top: 10px;
 }
 
 .background-image {
@@ -98,7 +98,7 @@ a:hover {
 
 .background-header {
   width: 100%;
-  height: 400px;
+  height: 500px;
   display: flex;
   justify-content: space-between;
   position: absolute;
@@ -129,6 +129,7 @@ a:hover {
 .review-text {
   background-color: white;
   padding: 50px;
+  width: 50%;
 }
 
 .team-div {
@@ -150,13 +151,21 @@ a:hover {
 .salon-images {
   display: flex;
   gap: 30px;
-  padding: 30px 50px 30px 50px;
-  align-content: center;
-  justify-content: center;
+  padding: 30px 80px;
+  justify-content: space-between;
+  width: 100vw;
+  box-sizing: border-box;
+}
+
+.salon-images img {
+  flex: 1;
+  max-width: 100%;
+  height: auto;
 }
 
 .contact-info-div {
   display: flex;
+  padding: 50px;
 }
 
 .team-text {
@@ -181,8 +190,134 @@ a:hover {
   gap: 10px;
 }
 
+.blogposts-nails {
+  display: flex;
+  padding: 20px;
+  gap: 30px;
+}
+
+.blog-post {
+  border: 2px solid black;
+  padding: 10px;
+  width: 50%;
+  background-color: white;
+  color: black;
+  box-sizing: border-box;
+  margin-bottom: 20px;
+}
+
+.image-container {
+  width: 100%;
+  height: 200px;
+  overflow: hidden;
+  position: relative;
+}
+
+.responsive-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.blog-title {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.divider {
+  width: 100%;
+  text-align: left;
+  margin-left: 0;
+  height: 1px;
+  color: black;
+  background-color: black;
+}
+
+.blog-paragraph {
+  margin-bottom: 10px;
+}
+
+.manicure-text {
+  background-color: black;
+  color: white;
+  padding: 40px;
+  line-height: 2;
+  text-align: justify;
+  width: 60%;
+}
+
+.manicure-div {
+  display: flex;
+  background-color: black;
+  align-items: center;
+  justify-content: center;
+  min-height: 1300px;
+}
+
+.header-container {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  height: 500px;
+}
+
+.contact-text {
+  color: white;
+  padding: 50px;
+  line-height: 2;
+  text-align: justify;
+  width: 40%;
+}
+
+.contact-adress {
+  color: white;
+  padding: 50px;
+  line-height: 2;
+  text-align: justify;
+  width: 40%;
+}
+
+.contact-info {
+  background-color: white;
+  padding: 50px;
+  width: 10%;
+  display: grid;
+}
 /* Media query for mobile devices */
 @media (max-width: 700px) {
+  .contact-info {
+    width: auto;
+    padding: 0;
+  }
+
+  .contact-adress {
+    width: auto;
+    padding: 0;
+  }
+
+  .contact-text {
+    width: auto;
+    padding: 0;
+  }
+
+  .header-container {
+    height: auto;
+  }
+
+  .manicure-text {
+    width: auto;
+  }
+
+  .blog-post {
+    width: 100%;
+  }
+
+  .blogposts-nails {
+    flex-direction: column;
+    padding: 10px !important;
+  }
+
   .image-box-2 {
     flex-direction: column;
   }
@@ -232,6 +367,7 @@ a:hover {
   }
   .review-text {
     padding: 10px;
+    width: auto;
   }
 
   .review-div {

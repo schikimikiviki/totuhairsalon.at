@@ -13,7 +13,9 @@
       ],
       "link": true,
       "linktext": "Mehr dazu auf der offiziellen BrillBird Seite",
-      "hypertext": "https://brillbirdshop.at/"
+      "hypertext": "https://brillbirdshop.at/",
+      "internalLink": "brillbird",
+      "blogImage": "brillbird.jpg"
     },
     {
       "title": "Neonail",
@@ -28,7 +30,9 @@
       ],
       "link": true,
       "linktext": "Mehr dazu auf der offiziellen Neonail Seite",
-      "hypertext": "https://neonail.de/"
+      "hypertext": "https://neonail.de/",
+      "internalLink": "neonail",
+      "blogImage": "neonail.jpg"
     },
     {
       "title": "Farmona",
@@ -43,7 +47,9 @@
       ],
       "link": true,
       "linktext": "Mehr dazu auf der offiziellen Farmona Seite",
-      "hypertext": "https://farmona.pl/en/"
+      "hypertext": "https://farmona.pl/en/",
+      "internalLink": "farmona",
+      "blogImage": "farmona.jpg"
     },
     {
       "title": "Semilac",
@@ -58,7 +64,9 @@
       ],
       "link": true,
       "linktext": "Mehr dazu auf der offiziellen Semilac Seite",
-      "hypertext": "https://semilac.de/de/"
+      "hypertext": "https://semilac.de/de/",
+      "internalLink": "semilac",
+      "blogImage": "semilac.jpg"
     }
   ]
 }
