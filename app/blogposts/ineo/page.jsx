@@ -7,7 +7,7 @@ import Image from 'next/image';
 import ineoImg from '../../media/ineo.jpg';
 import Link from 'next/link';
 
-export default function ineo() {
+export default function Ineo() {
   const [isPolish, setIsPolish] = useState(false);
 
   let postDetails = postsData.posts[2];

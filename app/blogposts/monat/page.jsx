@@ -11,7 +11,7 @@ import monat4 from '../../media/monat4.jpg';
 
 import Link from 'next/link';
 
-export default function monat() {
+export default function Monat() {
   const [isPolish, setIsPolish] = useState(false);
 
   let postDetails = postsData.posts[4];

@@ -7,7 +7,7 @@ import Image from 'next/image';
 import foehn from '../../media/foehn.jpg';
 import Link from 'next/link';
 
-export default function sauna() {
+export default function Sauna() {
   const [isPolish, setIsPolish] = useState(false);
 
   let postDetails = postsData.posts[3];

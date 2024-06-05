@@ -7,7 +7,7 @@ import Image from 'next/image';
 import krio from '../../media/krio.jpg';
 import Link from 'next/link';
 
-export default function kryotherapy() {
+export default function Kryotherapy() {
   const [isPolish, setIsPolish] = useState(false);
 
   let postDetails = postsData.posts[0];

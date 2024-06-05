@@ -1,32 +1,32 @@
-'use client'
+'use client';
 
-import { useState } from 'react'
-import HeaderMinimal from '@/app/components/HeaderMinimal'
-import postsData from '../posts_nails.json'
-import Image from 'next/image'
-import brill from '../../media/brillbird.jpg'
+import { useState } from 'react';
+import HeaderMinimal from '@/app/components/HeaderMinimal';
+import postsData from '../posts_nails.json';
+import Image from 'next/image';
+import brill from '../../media/brillbird.jpg';
 
-import Link from 'next/link'
+import Link from 'next/link';
 
-export default function brillbird() {
-  const [isPolish, setIsPolish] = useState(false)
+export default function Brillbird() {
+  const [isPolish, setIsPolish] = useState(false);
 
-  let postDetails = postsData.posts[0]
+  let postDetails = postsData.posts[0];
 
   const updateLanguage = (isPolish) => {
-    setIsPolish(isPolish)
-    console.log('Globally changed language, give language to children')
-  }
+    setIsPolish(isPolish);
+    console.log('Globally changed language, give language to children');
+  };
 
   return (
     <main>
       <HeaderMinimal sendIsPolish={updateLanguage} />
-      <div className="post-inner">
+      <div className='post-inner'>
         <p>
-          <Link href="/">Home</Link> &gt;
+          <Link href='/'>Home</Link> &gt;
           {isPolish ? postDetails.titlePL : postDetails.title}
         </p>
-        <p className="heading">
+        <p className='heading'>
           {isPolish ? postDetails.titlePL : postDetails.title}
         </p>
         <hr
@@ -57,10 +57,10 @@ export default function brillbird() {
               </div>
             ))}
         <br />
-        <div className="image-box">
+        <div className='image-box'>
           <Image
             src={brill.src}
-            alt="image"
+            alt='image'
             width={750}
             height={500}
             style={{ width: 'inherit', height: 'inherit' }}
@@ -68,5 +68,5 @@ export default function brillbird() {
         </div>
       </div>
     </main>
-  )
+  );
 }

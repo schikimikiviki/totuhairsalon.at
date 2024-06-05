@@ -4,7 +4,7 @@ import { useState } from 'react';
 import HeaderMinimal from '../components/HeaderMinimal';
 import Link from 'next/link';
 
-export default function data() {
+export default function Data() {
   const [isPolish, setIsPolish] = useState(false);
 
   const updateLanguage = (isPolish) => {

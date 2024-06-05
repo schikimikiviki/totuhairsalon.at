@@ -1,32 +1,32 @@
-'use client'
+'use client';
 
-import { useState } from 'react'
-import HeaderMinimal from '@/app/components/HeaderMinimal'
-import postsData from '../posts.json'
-import Image from 'next/image'
-import laminierungImg from '../../media/laminierung.jpg'
+import { useState } from 'react';
+import HeaderMinimal from '@/app/components/HeaderMinimal';
+import postsData from '../posts.json';
+import Image from 'next/image';
+import laminierungImg from '../../media/laminierung.jpg';
 
-import Link from 'next/link'
+import Link from 'next/link';
 
-export default function laminierung() {
-  const [isPolish, setIsPolish] = useState(false)
+export default function Laminierung() {
+  const [isPolish, setIsPolish] = useState(false);
 
-  let postDetails = postsData.posts[17]
+  let postDetails = postsData.posts[17];
 
   const updateLanguage = (isPolish) => {
-    setIsPolish(isPolish)
-    console.log('Globally changed language, give language to children')
-  }
+    setIsPolish(isPolish);
+    console.log('Globally changed language, give language to children');
+  };
 
   return (
     <main>
       <HeaderMinimal sendIsPolish={updateLanguage} />
-      <div className="post-inner">
+      <div className='post-inner'>
         <p>
-          <Link href="/">Home</Link> &gt;
+          <Link href='/'>Home</Link> &gt;
           {isPolish ? postDetails.titlePL : postDetails.title}
         </p>
-        <p className="heading">
+        <p className='heading'>
           {isPolish ? postDetails.titlePL : postDetails.title}
         </p>
         <hr
@@ -57,10 +57,10 @@ export default function laminierung() {
               </div>
             ))}
         <br />
-        <div className="image-box">
+        <div className='image-box'>
           <Image
             src={laminierungImg.src}
-            alt="image"
+            alt='image'
             width={750}
             height={500}
             style={{ width: 'inherit', height: 'inherit' }}
@@ -68,5 +68,5 @@ export default function laminierung() {
         </div>
       </div>
     </main>
-  )
+  );
 }

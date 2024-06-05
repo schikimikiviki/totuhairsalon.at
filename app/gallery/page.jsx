@@ -1,6 +1,6 @@
 import { useNavigate } from 'react';
 
-export default function gallery() {
+export default function Gallery() {
   return (
     <main>
       <h1>Gallery</h1>

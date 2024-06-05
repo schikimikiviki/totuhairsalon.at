@@ -7,7 +7,7 @@ import Image from 'next/image';
 import owayImg from '../../media/oway.jpg';
 import Link from 'next/link';
 
-export default function oway() {
+export default function Oway() {
   const [isPolish, setIsPolish] = useState(false);
 
   let postDetails = postsData.posts[1];
