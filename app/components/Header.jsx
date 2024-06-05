@@ -1,17 +1,17 @@
-import React, { useState } from 'react'
-import headerImage from '../media/header.jpg'
-import facebook from '../media/fb.png'
-import telephone from '../media/phone.png'
-import map from '../media/maps-icon.png'
-import GrowIcon from './GrowIcon'
-import FlagSelection from './FlagSelection'
-import Menu from './Menu'
-import Image from 'next/image'
-import croppedLogo from '../media/cropped-logo2.png'
-import MobileMenu from './MobileMenu'
+import React, { useState } from 'react';
+import headerImage from '../media/header.jpg';
+import facebook from '../media/fb.png';
+import telephone from '../media/phone.png';
+import map from '../media/maps-icon.png';
+import GrowIcon from './GrowIcon';
+import FlagSelection from './FlagSelection';
+import Menu from './Menu';
+import Image from 'next/image';
+import croppedLogo from '../media/cropped-logo2.png';
+import MobileMenu from './MobileMenu';
 
 const Header = ({ sendIsPolish }) => {
-  const [isPolish, setIsPolish] = useState(false)
+  const [isPolish, setIsPolish] = useState(false);
 
   const Icons = [
     {
@@ -35,35 +35,35 @@ const Header = ({ sendIsPolish }) => {
       link: 'https://maps.app.goo.gl/5BYGHExtxSSedVfy7',
       style: { marginLeft: '10px', marginTop: '-15px' },
     },
-  ]
+  ];
 
   const updateLanguage = (isPolish) => {
-    setIsPolish(isPolish ? true : false)
-    sendIsPolish(isPolish)
-  }
+    setIsPolish(isPolish ? true : false);
+    sendIsPolish(isPolish);
+  };
 
   return (
     <>
-      <div className="header-container">
-        <div className="background-header">
+      <div className='header-container'>
+        <div className='background-header'>
           <Image
             src={headerImage.src}
-            alt="image"
+            alt='image'
             width={1000}
             height={800}
             style={{ width: '100%', height: '100%' }}
           />
         </div>
-        <div className="mobile-logo">
+        <div className='mobile-logo'>
           <Image
             src={croppedLogo.src}
-            alt="image"
+            alt='image'
             width={1000}
             height={800}
             style={{ width: '100%', height: '300px' }}
           />
         </div>
-        <div className="icons-menu">
+        <div className='icons-menu'>
           {Icons.map((icon, index) => (
             <GrowIcon
               key={index}
@@ -87,16 +87,16 @@ const Header = ({ sendIsPolish }) => {
           <br />
           <br />
 
-          <div className="menu-div">
+          <div className='menu-div'>
             <Menu isPolish={isPolish} />
           </div>
         </div>
       </div>
-      <div className="mobile-menu-div">
+      <div className='mobile-menu-div'>
         <MobileMenu isPolish={isPolish} />
       </div>
     </>
-  )
-}
+  );
+};
 
-export default Header
+export default Header;

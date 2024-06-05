@@ -66,14 +66,33 @@ a:hover {
 
 .info-section {
   display: flex;
-  flex-direction: row;
 }
 
 .background-image {
   width: 45%;
-  height: 1000px;
-  /* flex: 1 1 auto; */
+  height: auto;
+  display: flex;
+  background-color: #d93030;
+  align-items: center;
+  justify-content: center;
 }
+
+.image-container {
+  position: relative;
+  width: 100%; /* Adjust width as necessary */
+  height: 100%; /* Set the desired height */
+  overflow: hidden;
+}
+
+/* .image-container img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+} */
 
 .text-content {
   /* flex: 1 1 auto; */
@@ -98,7 +117,7 @@ a:hover {
 
 .background-header {
   width: 100%;
-  height: 500px;
+  height: 100%;
   display: flex;
   justify-content: space-between;
   position: absolute;
@@ -236,6 +255,7 @@ a:hover {
 
 .blog-paragraph {
   margin-bottom: 10px;
+  text-align: left;
 }
 
 .manicure-text {
@@ -259,7 +279,7 @@ a:hover {
   position: relative;
   display: flex;
   justify-content: space-between;
-  height: 500px;
+  height: 60vh;
 }
 
 .contact-text {
@@ -289,6 +309,12 @@ a:hover {
   background-color: black;
   padding: 50px;
   color: white;
+  line-height: 2;
+  text-align: justify;
+}
+
+.products-div {
+  padding: 50px;
   line-height: 2;
   text-align: justify;
 }

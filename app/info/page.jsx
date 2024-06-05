@@ -36,6 +36,8 @@ export default function info() {
         <p>Märzstraße 42/2 </p>
         <p>{isPolish ? '1150 Wiedeń' : '1150 Wien'} </p>
         <p>Telefon: 0676 6188223</p>
+        <br />
+        <br />
 
         <a href='https://vbdev.at/'>
           {isPolish ? 'Strona internetowa' : 'Website-Programmierung'}

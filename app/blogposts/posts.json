@@ -27,7 +27,9 @@
         "Krioterapia ma sens przede wszystkim w przypadku mocno zniszczonych włosów. Zwłaszcza jeśli włosy były często traktowane ciepłem, krioterapia wykazuje wspaniałe rezultaty. Jest odpowiednia dla wszystkich rodzajów włosów i może być wykonywana nawet na włosach farbowanych bez wpływu na kolor.",
         "Do krioterapii włosy muszą być mokre, aby łuski włosów były otwarte. Po szybkim umyciu włosów, na włosy nakładana jest specjalna pielęgnacja. Po tym jak pielęgnacja została dobrze rozprowadzona i krótko zadziałała, można rozpocząć krioterapię. Używa się do tego specjalnego urządzenia, które wygląda jak prostownica i jest schłodzone do -16 stopni Celsjusza. Za jego pomocą traktuje się poszczególne pasma włosów. Po zabiegu czeka się, aż włosy ponownie osiągną temperaturę pokojową i zmywa się pielęgnację. Natychmiast po terapii widoczny i odczuwalny jest wyraźny rezultat."
       ],
-      "link": false
+      "link": false,
+      "internalLink": "kryotherapy",
+      "blogImage": "krio.jpg"
     },
     {
       "title": "Haarregeneration mit Oway",
@@ -42,7 +44,9 @@
       ],
       "link": true,
       "linktext": "Mehr dazu auf der offiziellen Oway-Seite",
-      "hypertext": "https://oway.com/de-at/"
+      "hypertext": "https://oway.com/de-at/",
+      "internalLink": "oway",
+      "blogImage": "oway.jpg"
     },
     {
       "title": "iNeo-Crystal Haarlaminierung",
@@ -55,7 +59,9 @@
       "paragraphsPL": [
         "Die iNeo-Crystal regeneruje i naprawia uszkodzone włosy. Zapewnia ochronę przed codziennym stresem i wpływami środowiska. Kuracja iNeoiNeo-Crystal jest odpowiednia dla cienkich i rozdwojonych końcówek. W przypadku włosów farbowanych, kolor włosów jest dodatkowo chroniony i przedłuża się jego trwałość.  "
       ],
-      "link": false
+      "link": false,
+      "internalLink": "ineo",
+      "blogImage": "ineo.jpg"
     },
     {
       "title": "Sauna – Regeneration und Hydratation von Haar und Kopfhaut",
@@ -92,7 +98,9 @@
         "Osiąga się po 4-6 zabiegach. Włosy stają się miękkie, puszyste. Ich kolor błyszczący. Dzięki działaniu ozonu włosy przestają się elektryzować.",
         "Polepsza ukrwienie skóry głowy, włosy stają się mocniejsze, doskonale się rozczesują i układają. "
       ],
-      "link": false
+      "link": false,
+      "internalLink": "sauna",
+      "blogImage": "foehn.jpg"
     },
     {
       "title": "Monat - Premium Hair Care",
