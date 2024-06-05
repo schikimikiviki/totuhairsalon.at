@@ -1,14 +1,14 @@
-import React from 'react';
-import Kundin1 from '../media/1.jpg';
-import Kundin2 from '../media/2.jpg';
-import Kundin3 from '../media/3.jpg';
-import Image from 'next/image';
+import React from 'react'
+import Kundin1 from '../media/1.jpg'
+import Kundin2 from '../media/2.jpg'
+import Kundin3 from '../media/3.jpg'
+import Image from 'next/image'
 
 const ReviewSection = (props) => {
   return (
-    <div className='review-div'>
-      <div className='review-text'>
-        <p className='heading'>
+    <div className="review-div" id="clients">
+      <div className="review-text">
+        <p className="heading">
           {props.isPolish
             ? 'Nasi klienci i klientki'
             : 'Unsere Kundinnen und Kunden'}{' '}
@@ -25,18 +25,18 @@ const ReviewSection = (props) => {
         </p>
       </div>
       <div style={{ padding: '50px', display: 'flex', gap: '30px' }}>
-        <Image src={Kundin1.src} alt='image' width={200} height={350} />
-        <div className='more-clients'>
-          <Image src={Kundin2.src} alt='image' width={200} height={350} />
+        <Image src={Kundin1.src} alt="image" width={200} height={350} />
+        <div className="more-clients">
+          <Image src={Kundin2.src} alt="image" width={200} height={350} />
         </div>
-        <div className='more-clients'>
-          <Image src={Kundin3.src} alt='image' width={200} height={350} />
+        <div className="more-clients">
+          <Image src={Kundin3.src} alt="image" width={200} height={350} />
         </div>
 
         {/* <Button text='Mehr Fotos' isAction='page' /> */}
       </div>
     </div>
-  );
-};
+  )
+}
 
-export default ReviewSection;
+export default ReviewSection

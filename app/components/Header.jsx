@@ -46,7 +46,13 @@ const Header = ({ sendIsPolish }) => {
     <>
       <div className="header-container">
         <div className="background-header">
-          <Image src={headerImage.src} alt="image" fill />
+          <Image
+            src={headerImage.src}
+            alt="image"
+            width={1000}
+            height={800}
+            style={{ width: '100%', height: '100%' }}
+          />
         </div>
         <div className="mobile-logo">
           <Image

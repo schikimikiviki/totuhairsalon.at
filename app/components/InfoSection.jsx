@@ -1,23 +1,23 @@
-import React from 'react';
-import coverImage from '../media/cover-image.jpg';
-import Button from './Button';
-import Image from 'next/image';
+import React from 'react'
+import coverImage from '../media/cover-image.jpg'
+import Button from './Button'
+import Image from 'next/image'
 
 const InfoSection = (props) => {
   return (
-    <div className='info-section'>
-      <div className='background-image'>
+    <div className="info-section">
+      <div className="background-image">
         <Image
           src={coverImage.src}
-          alt='image'
+          alt="image"
           width={1000}
           height={800}
           style={{ width: '100%', height: 'inherit' }}
         />
       </div>
-      <div className='text-content'>
-        <div className='text-inner'>
-          <p className='heading'>
+      <div className="text-content">
+        <div className="text-inner">
+          <p className="heading">
             {props.isPolish
               ? 'Salon fryzjerski i kosmetyczny ToTu'
               : 'ToTu Hair & Beauty Salon'}
@@ -47,12 +47,12 @@ const InfoSection = (props) => {
                 ? 'Zarezerwuj termin już teraz'
                 : 'Jetzt Termin buchen!'
             }
-            isAction='telephone'
+            isAction="telephone"
           />
         </div>
       </div>
     </div>
-  );
-};
+  )
+}
 
-export default InfoSection;
+export default InfoSection

@@ -70,8 +70,8 @@ a:hover {
 }
 
 .background-image {
-  width: 50%;
-  height: 800px;
+  width: 45%;
+  height: 1000px;
   /* flex: 1 1 auto; */
 }
 
@@ -79,7 +79,7 @@ a:hover {
   /* flex: 1 1 auto; */
   line-height: 2;
   text-align: justify;
-  width: 50%;
+  width: 55%;
   padding: 20px;
 }
 
