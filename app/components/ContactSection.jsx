@@ -20,7 +20,7 @@ const ContactSection = (props) => {
         <Image src={draussen.src} alt="image" width={300} height={250} />
         <Image src={krzeslo.src} alt="image" width={300} height={250} />
       </div>
-      <div className="contact-info-div">
+      <div className="contact-info-div" id="contact">
         <div className="contact-text">
           <p className="heading">Kontakt</p>
           <p>

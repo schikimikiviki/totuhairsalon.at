@@ -6,7 +6,7 @@ import BlogPost from './BlogPost'
 
 const NailSection = (props) => {
   return (
-    <div className="manicure-div">
+    <div className="manicure-div" id="manicure">
       <div className="nail-bg">
         <Image
           src={nailsBackground.src}
