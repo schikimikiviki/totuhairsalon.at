@@ -1,17 +1,17 @@
-import Link from 'next/link'
+import Link from 'next/link';
 
-const BlogPost = ({ post, isPolish }) => {
-  let linkInternal = `/blogposts/${post.internalLink}`
-  const url = post.blogImage
+const BlogPost = ({ post, isPolish, propLayout }) => {
+  let linkInternal = `/blogposts/${post.internalLink}`;
+  const url = post.blogImage;
 
   return (
-    <div className="blog-post">
-      <div className="image-container">
-        <img src={url} alt="blog-image" className="responsive-image" />
+    <div className={propLayout ? propLayout : 'blog-post'}>
+      <div className='image-container'>
+        <img src={url} alt='blog-image' className='responsive-image' />
       </div>
-      <p className="blog-title">{isPolish ? post.titlePL : post.title}</p>
-      <hr className="divider" />
-      <p className="blog-paragraph">
+      <p className='blog-title'>{isPolish ? post.titlePL : post.title}</p>
+      <hr className='divider' />
+      <p className='blog-paragraph'>
         {isPolish
           ? post.paragraphsPL[0].split('. ', 1)[0]
           : post.paragraphs[0].split('. ', 1)[0]}
@@ -24,7 +24,7 @@ const BlogPost = ({ post, isPolish }) => {
       </p>
       <br />
     </div>
-  )
-}
+  );
+};
 
-export default BlogPost
+export default BlogPost;

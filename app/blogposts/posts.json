@@ -40,7 +40,7 @@
         "Die italienische Marke Oway stellt biodynamische und naturbelassene Haar-, und Körperpflegeprodukte her. Umwelt steht dabei im Fokus – Oway-Produkte werden ausschließlich in recycelten Glasbehältern abgefüllt und erfüllen die höchsten Standards der Kreislauf-kosmetik. Überzeugen Sie sich selbst von Oway-Biodynamik und entdecken Sie Reinheit und Qualität ohne Kompromisse."
       ],
       "paragraphsPL": [
-        "Włoska markaOwayprodukuje biodynamiczne i naturalne produkty do pielęgnacji włosów i ciała. W centrum uwagi znajduje się środowisko naturalne -Owayprodukty Oway są napełniane wyłącznie w szklanych pojemnikach pochodzących z recyklingu i spełniają najwyższe standardy kosmetyków o obiegu zamkniętym. Przekonaj się do Owaybiodynamiki Oway i odkryj czystość i jakość bez kompromisów.  "
+        "Włoska marka Oway produkuje biodynamiczne i naturalne produkty do pielęgnacji włosów i ciała. W centrum uwagi znajduje się środowisko naturalne -Owayprodukty Oway są napełniane wyłącznie w szklanych pojemnikach pochodzących z recyklingu i spełniają najwyższe standardy kosmetyków o obiegu zamkniętym. Przekonaj się do Owaybiodynamiki Oway i odkryj czystość i jakość bez kompromisów.  "
       ],
       "link": true,
       "linktext": "Mehr dazu auf der offiziellen Oway-Seite",
@@ -57,7 +57,7 @@
         "Die iNeo-Crystal Haarlaminierung regeneriert und repariert geschädigtes Haar. Sie bietet Schutz vor alltäglicher Beanspruchung und Umwelteinflüssen. Die iNeo–Crystal-Behandlung eignet sich für dünnes und splissiges Haar. Bei coloriertem Haar wird zusätzlich die Haarfarbe geschützt und länger haltbar gemacht."
       ],
       "paragraphsPL": [
-        "Die iNeo-Crystal regeneruje i naprawia uszkodzone włosy. Zapewnia ochronę przed codziennym stresem i wpływami środowiska. Kuracja iNeoiNeo-Crystal jest odpowiednia dla cienkich i rozdwojonych końcówek. W przypadku włosów farbowanych, kolor włosów jest dodatkowo chroniony i przedłuża się jego trwałość.  "
+        "iNeo-Crystal regeneruje i naprawia uszkodzone włosy. Zapewnia ochronę przed codziennym stresem i wpływami środowiska. Kuracja iNeoiNeo-Crystal jest odpowiednia dla cienkich i rozdwojonych końcówek. W przypadku włosów farbowanych, kolor włosów jest dodatkowo chroniony i przedłuża się jego trwałość.  "
       ],
       "link": false,
       "internalLink": "ineo",
@@ -115,7 +115,9 @@
       ],
       "link": "true",
       "linktext": "Mehr dazu auf der Monat-Webseite",
-      "hypertext": "https://monatglobal.com/uk/"
+      "hypertext": "https://monatglobal.com/uk/",
+      "internalLink": "monat",
+      "blogImage": "monat1.jpg"
     },
     {
       "title": "Aquarely - Italienische Qualität bei ToTuAquarely - Italienische Qualität bei ToTu",
@@ -130,7 +132,9 @@
       ],
       "link": true,
       "linktext": "Mehr dazu auf der offiziellen Aquarely-Seite",
-      "hypertext": "https://www.italyhairbeauty.com/aquarely-permanent-hair-colour-100ml/"
+      "hypertext": "https://www.italyhairbeauty.com/aquarely-permanent-hair-colour-100ml/",
+      "internalLink": "aquarely",
+      "blogImage": "aquarely.jpg"
     },
     {
       "title": "Previa - Natural Hair Care",
@@ -145,7 +149,9 @@
       ],
       "link": true,
       "hypertext": "https://www.previa-world.de/",
-      "linktext": "Mehr dazu auf der Previa-Webseite"
+      "linktext": "Mehr dazu auf der Previa-Webseite",
+      "internalLink": "previa",
+      "blogImage": "previa.png"
     },
     {
       "title": "Matrix - Professional Hair Color",
@@ -160,7 +166,9 @@
       ],
       "link": true,
       "hypertext": "https://www.matrix.com/",
-      "linktext": "Mehr dazu auf der Matrix-Webseite"
+      "linktext": "Mehr dazu auf der Matrix-Webseite",
+      "blogImage": "matrix1.jpg",
+      "internalLink": "matrix"
     },
     {
       "title": "Das Glätteisen für die Haarpflege",
@@ -181,7 +189,9 @@
         "Jak to bywa po zimie większość kobiet zmaga się ze zniszczonymi włosami. W zimie z powodu zmieniających się temperatur, ogrzewania wewnątrz domu, nasze włosy są suche i zniszczone, a gdy dodatkowo je rozjaśniamy, koloryzujemy, wyglądają nie najzdrowiej. Ale jest na to sposób! Chodzi o pielęgnice...  ",
         "Pielęgnica to nowy trend w dziedzinie pielęgnacji włosów - kuracja na chłodno z wykorzystaniem podczerwieni. Dzięki temu zapewnia regenerację zniszczonych tkanek włosów oraz stymuluje cyrkulację krwi w skórze głowy. Zabieg pielęgnicy sprawia, że włosy są zdrowsze, silniejsze, grubsze a zarazem błyszczące i jedwabiste jednocześnie pogłębiając ich kolor. Wykorzystanie promieniowania podczerwonego zapewni powstawanie w aminokwasach nowych wiązań przywracając elastyczność włóknom włosa a jego łuska zostaje domknięta. Bezpośrednio reaguje na uszkodzoną tkankę. Dla uzyskania zadowalającego efektu kuracja powinna trwać około 2 miesięcy (odstęp pomiędzy zabiegami max. 10 dni). Podczas tej kuracji proteiny zawarte we włosach zostaną uzupełnione oraz elastyczność włosów zostanie wzmocniona. Plusem jest to, że nie ma potrzeby ogrzewania włosów, zapobiega to puchnięciu rozszerzeniu łuski włosa, dzięki temu kora zostaje odbudowana, zapobiega rozdwajaniu i łamliwości włosa. "
       ],
-      "link": false
+      "link": false,
+      "blogImage": "pielegnica.jpeg",
+      "internalLink": "glaetteisen"
     },
     {
       "title": "Sunplex",
@@ -194,7 +204,9 @@
       "paragraphsPL": [
         "Firma Sunplex była częścią naszego asortymentu od samego początku. Polska marka wcześnie ugruntowała swoją pozycję w sektorze regeneracji włosów i jest najlepszą decyzją, jaką można podjąć w przypadku włosów szczególnie zniszczonych. Pielęgnacja jest dodatkowo stosowana podczas koloryzacji w celu ochrony włosów. Unikalna formuła została specjalnie opracowana, aby odbudować i zregenerować włosy rozjaśniane i farbowane. I to z sukcesem - jesteśmy do Sunplexu w pełni przekonany! "
       ],
-      "link": false
+      "link": false,
+      "blogImage": "sunplex.jpg",
+      "internalLink": "sunplex"
     },
     {
       "title": "Regeneration der Haare beim Färben mit Nanoplex",
@@ -215,7 +227,9 @@
         "Masz już dość swoich zniszczonych włosów po farbowaniu, trwałej lub innych zabiegach fryzjerskich? Marzysz o produkcie, który podczas koloryzacji sprawi, że regeneracja włosów będzie faktem a nie tylko życzeniem? To mamy wspaniałą wiadomość! Taki produkt istnieje i nazywa się Nanoplex! Czym jest to cudo? Jest to kuracja, której zadaniem jest odbudowa uszkodzonych włókien keratynowych włosa. To istna rewolucjia w wykonywaniu zabiegów w salonie fryzjerskim oraz w zaciszu domowym. Regeneracja włosów farbowania stała się faktem. ",
         "Kuracja ta pozwala by włosy pozostały piękne i gładkie, bez żadnych uszkodzeń. Jak to możliwe? Naturalne substancje zawarte w Nanoplexie bardzo dobrze rozpuszczają się w wodzie a to pozwala im przenikać w głąb włosa do ich włókien. Keratyna zawarta w preparacie wzmacnia i odbudowuje połączenia mostków siarczkowych. W efekcie po farbowaniu włosy wyglądają jak po zabiegu regeneracyjnym. Włosy pozostają elastyczne i nie odczuwają szkodliwego działania chemii zawartej w farbach do włosów.  "
       ],
-      "link": false
+      "link": false,
+      "blogImage": "nanoplex.jpg",
+      "internalLink": "nanoplex"
     },
     {
       "title": "Ihr Haar ist unsere Leidenschaft - Insight Cosmetics",
@@ -304,7 +318,9 @@
       ],
       "link": "true",
       "linktext": "Mehr dazu auf der Insight-Webseite",
-      "hypertext": "https://www.insightprofessional.it/en/hair-styling/products"
+      "hypertext": "https://www.insightprofessional.it/en/hair-styling/products",
+      "blogImage": "insight.jpg",
+      "internalLink": "insight"
     },
     {
       "title": "Die JOICO-Wiederaufbau-Kur in vier Phasen",
@@ -337,7 +353,9 @@
         "W tym momencie następuje odbudowanie włosa — regeneracja za pomocą płynnej keratyny, składającej się z 19 aminokwasów, która dociera pomiędzy rozchylone łuski włosów i wypełnia luki w ich strukturze.  ",
         "Podczas tego etapu łuski włosa są domykane, włosy stają się nawilżone, elastyczne i podatne na układanie."
       ],
-      "link": false
+      "link": false,
+      "blogImage": "joico.jpg",
+      "internalLink": "joico"
     },
     {
       "title": " True Keratin Bio-Acai-Behandlung",
@@ -350,7 +368,9 @@
       "paragraphsPL": [
         "Kuracja True Keratin Acai Berry zawiera fioletowe jagody, które zawierają kombinację minerałów i aminokwasów, aby wzmocnić włosy. Bogate w białko, witaminy A, Bł, E i C, omega-6 i omega 9, kwasy tłuszczowe, włókna i enzymy. Potęga przeciwutleniaczy odmładza włosy, redukuje skręt i poprawia kolor włosów.Duża ilości antyoxydantów zawartych w owocach ACAT pomaga w uzyskaniu efektu delikatnych, odbudowanych zdrowych gładkich włosów. Keratyna Jagodowa Idealnie nadaje się do włosów, kręconych i zniszczonych, ma doskonałe właściwości regeneracyjne, odżywcze, wygładzające i prostujące. Dodaje blasku i poprawia koloryt włosów."
       ],
-      "link": false
+      "link": false,
+      "blogImage": "keratin.jpg",
+      "internalLink": "true-keratin"
     },
     {
       "title": "CocoChoco Professional Keratin",
@@ -363,7 +383,9 @@
       "paragraphsPL": [
         "CocoChoco Kuracja Keratynowa to zaawansowana terapia, która przemieni nawet bardzo zniszczone włosy w proste, gładkie i lśniące. Terapia jest oparta na zastosowaniu keratyny jako głównego i najskuteczniejszego składnika, który jest podstawowym budulcem skóry, paznokci i włosów. Keratyna jako organiczna i naturalna substancja daje Twoim włosom szansę do powrotu do ich pierwotnego stanu- naturalnego i zdrowego wyglądu. Zabieg można przeprowadzić w szczególności (w odróżnieniu od innych metod) na włosach farbowanych, zniszczonych zabiegami chemicznymi oraz rozjaśnianych. Keratynowe prostowanie włosów polecane jest osobom o włosach skłonnych do puszenia się, przesuszonych, sianowatych, zniszczonych, bezkształtnych, trudnych do ułożenia."
       ],
-      "link": false
+      "link": false,
+      "blogImage": "cocochoco.jpg",
+      "internalLink": "coco-choco"
     },
     {
       "title": "Botox für die Haare",
@@ -376,7 +398,9 @@
       "paragraphsPL": [
         "Botox to profesjonalny zabieg fryzjerski, którego zadaniem jest odbudowa włosa, jego regeneracja i poprawa kondycji. W efekcie włosy powinny odzyskać blask, być na nowo miękkie i elastyczne, gładkie i delikatne w dotyku. Botox na włosy polega na wtłoczeniu w kosmyki składników odżywczych, które uzupełniają ubytki między korą a otoczką włosa. Preparaty stosowane do botoksu włosów zawierają przede wszystkim kolagen, kwas hialuronowy i jagodyAcaiWidać, że botox do włosów ma niewiele wspólnego z tak popularnym zabiegiem medycyny estetycznej. Nie ma tutaj toksyny botulinowej, nie ma też strzykawek (no prawie). W zasadzie botox na włosy to zabieg bezinwazyjny. Zabieg ten oddziałuje bezpośrednio na wewnętrzną strukturę włosa, poprawiając ich wygląd. Po zabiegu włosy są lśniące, miękkie, gładkie i lepiej się też układają. A co ciekawe, ich kolor staje się mocniejszy, bardziej żywy, co ucieszy posiadaczki pasm koloryzowanych."
       ],
-      "link": false
+      "link": false,
+      "blogImage": "botox.jpg",
+      "internalLink": "botox"
     },
     {
       "title": "Glättung mit Nanoplastik",
@@ -401,7 +425,9 @@
         "Die Nanoplastia jest nowym zabiegiem, który polega na wprowadzeniu do włosów substancji aktywnych. Aby cząsteczki mogły dotrzeć do wnętrza włosa są one niezwykle małe, niemal wielkości atomu, który wnika w całego włosa. Przed wykonaniem Nanoplastii fryzjer musi umyć głowę specjalnie przeznaczonym do tego zabiegu szamponem. Następnie na włosy nakładany jest specjalny preparat bogaty w keratynę oraz składniki aktywne i odbudowujące, które docierają bezpośrednio do komórek włosów. Preparat należy trzymać na głowie około godziny, w zależności od stopnia skrętu naturalnego włosa i ich kondycji. Po tym czasie włosy muszą zostać bardzo dokładnie wysuszone. Już po tych czynnościach włosy sprawiają wrażenie dużo bardziej prostych. Jednak, żeby efekt był idealny i długotrwały w kolejnym kroku włosy są prostowane specjalnie przeznaczoną do Nanoplastii prostownicą. Prostowanie należy powtórzyć kilkukrotnie, aby pod wpływem temperatury składniki odżywcze miały możliwość wniknąć w głąb włosa. Kolejny etap to dokładne umycie głowy oraz nałożenie na włosy specjalnej maski, która utrwali efekty zabiegu. Cały zabieg może trwać nawet do 5-6 godzin. ",
         "Nanoplastia jest odpowiedzią na coraz większe zapotrzebowanie konsumentów na naturalne, ekologiczne produkty, które są bezpieczne dla zdrowia oraz środowiska. Największa zaletą zabiegu Jest fakt, te nie niszczy on włosów I pozwala cieszyć się zdrowo wyglądającymi, prostymi włosami nawet do kilku miesięcy. Włosy stają się pełne blasku, lśniące I sypkie, nie plączą się I nie puszą nawet w najbardziej wymagających warunkach atmosferycznych. Dodatkowo substancje odżywcze zawarte w preparatach do Nanoplastii wnikają głęboko wewnątrz włosa odbudowując I wzmacniając jego strukturę. Keratyna zawarta w preparacie dodatkowo domyka łuski włosów zatrzymując wewnątrz ich naturalny poziom nawilżenia i zapobiegając negatywnemu oddziaływaniu czynników zewnętrznych, dzięki czemu włosy wyglądają pięknie przez długi czas. Niewątpliwie olbrzymią zaletą zabiegu jest fakt, że włosy nie są obciążone I nie wyglądają na przylizane, sprawiają wrażenie lekkich I delikatnych, przy jednoczesnym zachowaniu wszystkich zalet trwałego prostowania. Decydując się na zabieg Nanoplastii należy jednak pamiętać, że po jego wykonaniu włosy mogą rozjaśnić się nawet do 3 tonów i nieco ocieplić swój odcień. Dotyczy to przede wszystkim włosów farbowanych. Dodatkowo włosy po zabiegu mogą się szybciej przetłuszczać, przez co będą wymagały częstszego niż do tej pory mycia. Jednak połączenie idealnie prostych włosów na okres kilku miesięcy i naturalnych składników pochodzenia roślinnego jest olbrzymią zaletą, która sprawi, że włosy będą nie tylko idealnie gładkie, ale również zdrowe I odżywione. "
       ],
-      "link": false
+      "link": false,
+      "blogImage": "nanoplastik.jpg",
+      "internalLink": "nanoplastik"
     },
     {
       "title": "Haarlaminierung",
@@ -414,7 +440,9 @@
       "paragraphsPL": [
         "Zabieg laminowania włosów polega na wygładzaniu i nabłyszczeniu pasm. Pasma stają się miękkie i gładkie, ładnie lśnią i łatwo je ułożyć. Są też wzmocnione. W zasadzie laminowanie zmniejsza też ilość rozdwojonych końcówek i intensywnie odżywia pasma.Do laminowania włosów używa się dwóch substancji: keratyny i żelatyny. Pierwszy składnik stanowi bazę profesjonalnych kosmetyków do laminowania włosów, ten drugi możesz znaleźć praktycznie w każdym sklepie spożywczym. Oba preparaty powinny domknąć łuski włosów, co z kolei ma sprawi, że będą gładkie i leiste."
       ],
-      "link": false
+      "link": false,
+      "internalLink": "laminierung",
+      "blogImage": "laminierung.jpg"
     },
     {
       "title": "Haare polieren – Haare schneiden auf moderne Art",
@@ -435,7 +463,9 @@
         "Polerowanie to innowacyjny zabieg, dzięki któremu Twoje włosy będą wyglądały zdrowo i pięknie. Ta nowoczesna metoda podcinania włosów, znacznie poprawia ich wygląd. Efekt ten zauważalny jest wręcz od razu. Bez utraty objętości i długości. Włosy stają się miękkie, łatwiejsze do ułożenia i bardziej lśniące. Polerowanie usuwa do 90% uszkodzonych końcówek i jednocześnie zapobiega rozpadowi włosów.Wypróbuj go, a już nigdy nie wrócisz do tradycyjnego podcinania końcówek. za pomocą specjalnej nasadki, którą zakłada się na maszynkę, obcinamy od 0,3 do 1 cm włosów zaczynając od nasady i do samych końców. Warstwa po warstwie, pasmo po paśmie, odnawiamy wszystkie włosy, ale nie tracimy z objętości i długości włosów. Taki zabieg można powtarzać co 2-4 miesiące.",
         "Ten zabieg polecamy klientkom, które: mają zniszczone końcówki na całej długości, mają spalone włosy od prostownicy, mają rozdwojone końcówki albo zapuszczają włosy  "
       ],
-      "link": false
+      "link": false,
+      "blogImage": "polieren.jpg",
+      "internalLink": "polierung"
     }
   ]
 }

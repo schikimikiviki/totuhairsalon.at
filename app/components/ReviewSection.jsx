@@ -1,14 +1,15 @@
-import React from 'react'
-import Kundin1 from '../media/1.jpg'
-import Kundin2 from '../media/2.jpg'
-import Kundin3 from '../media/3.jpg'
-import Image from 'next/image'
+import React from 'react';
+import Kundin1 from '../media/1.jpg';
+import Kundin2 from '../media/2.jpg';
+import Kundin3 from '../media/3.jpg';
+import Image from 'next/image';
+import Link from 'next/link';
 
 const ReviewSection = (props) => {
   return (
-    <div className="review-div" id="clients">
-      <div className="review-text">
-        <p className="heading">
+    <div className='review-div' id='clients'>
+      <div className='review-text'>
+        <p className='heading'>
           {props.isPolish
             ? 'Nasi klienci i klientki'
             : 'Unsere Kundinnen und Kunden'}{' '}
@@ -24,19 +25,29 @@ const ReviewSection = (props) => {
             : 'Sie sind sich nicht sicher, ob wir der richtige Frisörsalon für Sie sind? Kommen Sie vorbei und lassen Sie sich selbst von unserer Arbeit überzeugen! Zu unserer Klientel gehören die verschiedensten Menschen – wir sind uns sicher, dass wir auch für Ihre Bedürfnisse die richtige Lösung finden.'}
         </p>
       </div>
-      <div style={{ padding: '50px', display: 'flex', gap: '30px' }}>
-        <Image src={Kundin1.src} alt="image" width={200} height={350} />
-        <div className="more-clients">
-          <Image src={Kundin2.src} alt="image" width={200} height={350} />
+      <div
+        style={{
+          display: 'flex',
+          flexDirection: 'column',
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}
+      >
+        <div style={{ padding: '50px', display: 'flex', gap: '30px' }}>
+          <Image src={Kundin1.src} alt='image' width={200} height={350} />
+          <div className='more-clients'>
+            <Image src={Kundin2.src} alt='image' width={200} height={350} />
+          </div>
+          <div className='more-clients'>
+            <Image src={Kundin3.src} alt='image' width={200} height={350} />
+          </div>
         </div>
-        <div className="more-clients">
-          <Image src={Kundin3.src} alt="image" width={200} height={350} />
-        </div>
-
-        {/* <Button text='Mehr Fotos' isAction='page' /> */}
+        <Link href='/gallery'>
+          {props.isPolish ? 'Więcej zdjęć' : 'Mehr Fotos'}
+        </Link>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default ReviewSection
+export default ReviewSection;

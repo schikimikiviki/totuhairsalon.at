@@ -174,7 +174,6 @@ export default function Gallery() {
           {isPolish ? 'Galleria' : 'Gallerie'}
         </p>
         <GalleryWidget categories={categories} isPolish={isPolish} />
-        <div></div>
       </div>
     </main>
   );

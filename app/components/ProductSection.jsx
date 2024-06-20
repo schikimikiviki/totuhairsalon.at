@@ -1,6 +1,7 @@
 import React from 'react';
 import BlogPost from './BlogPost';
 import postsData from '../blogposts/posts.json';
+import Link from 'next/link';
 
 const ProductSection = (props) => {
   const firstNPosts = postsData.posts.slice(0, 4);
@@ -23,6 +24,10 @@ const ProductSection = (props) => {
             <BlogPost key={index} post={post} isPolish={props.isPolish} />
           ))}
         </div>
+
+        <Link href='/blogpage'>
+          {props.isPolish ? 'Więcej postów' : 'Mehr Blogbeiträge'}
+        </Link>
       </div>
     </div>
   );
