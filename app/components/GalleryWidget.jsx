@@ -39,7 +39,7 @@ const GalleryWidget = ({ categories, isPolish }) => {
       </div>
       <div className='images-grid'>
         {categories[selectedCategory].map((image, index) => (
-          <div key={index} className='image-container'>
+          <div key={index} className='image-container-media'>
             <Image
               src={image}
               alt={selectedCategory}
