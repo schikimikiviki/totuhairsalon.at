@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import Image from 'next/image';
 import { Dialog } from '@headlessui/react';
+import Button from './Button';
 
 const GalleryWidget = ({ categories, isPolish }) => {
   const [selectedCategory, setSelectedCategory] = useState(
@@ -29,13 +30,11 @@ const GalleryWidget = ({ categories, isPolish }) => {
     <div className='gallery'>
       <div className='tabs'>
         {Object.keys(categories).map((category) => (
-          <button
+          <Button
             key={category}
-            className={`tab ${selectedCategory === category ? 'active' : ''}`}
             onClick={() => setSelectedCategory(category)}
-          >
-            {isPolish ? translatedObj[category] : category}
-          </button>
+            text={isPolish ? translatedObj[category] : category}
+          />
         ))}
       </div>
       <div className='images-grid'>
@@ -44,8 +43,8 @@ const GalleryWidget = ({ categories, isPolish }) => {
             <Image
               src={image}
               alt={selectedCategory}
-              layout='fill'
-              objectFit='cover'
+              fill
+              style={{ objectFit: 'cover' }}
               className='image'
               onClick={() => openModal(image)}
             />
@@ -55,11 +54,14 @@ const GalleryWidget = ({ categories, isPolish }) => {
       <Dialog open={isOpen} onClose={closeModal} className='modal'>
         <div className='modal-background' onClick={closeModal}></div>
         <div className='modal-content'>
+          <button className='close-button' onClick={closeModal}>
+            &times;
+          </button>
           <Image
             src={selectedImage}
             alt='Selected'
-            layout='fill'
-            objectFit='contain'
+            fill
+            style={{ objectFit: 'contain' }}
           />
         </div>
       </Dialog>

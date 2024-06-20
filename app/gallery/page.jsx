@@ -1,6 +1,7 @@
 'use client';
 
 import { useState } from 'react';
+import Link from 'next/link';
 import HeaderMinimal from '@/app/components/HeaderMinimal';
 import GalleryWidget from '../components/GalleryWidget';
 import One from '../media/1.jpg';
@@ -166,7 +167,12 @@ export default function Gallery() {
   return (
     <main>
       <HeaderMinimal sendIsPolish={updateLanguage} />
+
       <div className='post-inner'>
+        <p>
+          <Link href='/'>Home</Link> &gt;
+          {isPolish ? 'Galleria' : 'Gallerie'}
+        </p>
         <GalleryWidget categories={categories} isPolish={isPolish} />
         <div></div>
       </div>

@@ -40,7 +40,7 @@ const Button = (props) => {
     <div>
       <button
         style={buttonStyle}
-        onClick={handleClick}
+        onClick={props.onClick ? props.onClick : handleClick}
         onMouseEnter={handleMouseEnter}
         onMouseLeave={handleMouseLeave}
       >
