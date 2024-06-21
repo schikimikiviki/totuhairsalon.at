@@ -60,12 +60,12 @@ export default function Data() {
           </u>
         </p>
         <p>
-          <u>{isPolish ? 'Ciasteczka' : 'Cookies'} </u>
+          <u>{isPolish ? 'Pliki cookie' : 'Cookies'} </u>
         </p>
         <p>
           {isPolish
-            ? 'Nasza strona internetowa wykorzystuje tzw. pliki cookies. Są to małe pliki tekstowe, które są zapisywane na Twoim urządzeniu za pomocą przeglądarki. Nie wyrządzają szkody. Używamy plików cookie, aby nasza oferta była przyjazna dla użytkownika. Niektóre pliki cookie pozostają zapisane na Twoim urządzeniu, dopóki ich nie usuniesz. Umożliwiają nam rozpoznanie Twojej przeglądarki przy następnej wizycie. Jeśli sobie tego nie życzysz, możesz ustawić swoją przeglądarkę tak, aby informowała Cię o ustawieniach plików cookies i zezwalała na to tylko w indywidualnych przypadkach. Jeśli pliki cookie zostaną wyłączone, funkcjonalność naszej witryny internetowej może zostać ograniczona.'
-            : 'Unsere Website verwendet sogenannte Cookies. Dabei handelt es sich um kleine Textdateien, die mit Hilfe des Browsers auf Ihrem Endgerät abgelegt werden. Sie richten keinen Schaden an. Wir nutzen Cookies dazu, unser Angebot nutzerfreundlich zu gestalten. Einige Cookies bleiben auf Ihrem Endgerät gespeichert, bis Sie diese löschen. Sie ermöglichen es uns, Ihren Browser beim nächsten Besuch wiederzuerkennen. Wenn Sie dies nicht wünschen, so können Sie Ihren Browser so einrichten, dass er Sie über das Setzen von Cookies informiert und Sie dies nur im Einzelfall erlauben. Bei der Deaktivierung von Cookies kann die Funktionalität unserer Website eingeschränkt sein.'}
+            ? 'Ta strona nie używa plików cookie. '
+            : 'Diese Webseite setzt keine Cookies. '}
         </p>
         <p>
           <u>

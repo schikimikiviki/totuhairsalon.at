@@ -262,7 +262,7 @@ a:hover {
   position: relative;
   display: flex;
   justify-content: space-between;
-  height: 60vh;
+  height: 55vh;
 }
 
 .contact-text {
@@ -379,8 +379,33 @@ a:hover {
   gap: 20px;
 }
 
+.quote {
+  margin-top: -30px;
+  position: relative;
+  background-color: white;
+}
+
+.photo-carousel {
+  padding: 50px;
+}
+
+.photo-carousel-mobile {
+  display: none;
+}
 /* Media query for mobile devices */
 @media (max-width: 700px) {
+  .photo-carousel {
+    display: none;
+  }
+
+  .photo-carousel-mobile {
+    display: inline;
+  }
+
+  .review-carousel {
+    display: none;
+  }
+
   .blog-grid {
     display: flex;
     flex-direction: column;
@@ -408,10 +433,6 @@ a:hover {
   .contact-text {
     width: auto;
     padding: 0;
-  }
-
-  .header-container {
-    height: auto;
   }
 
   .manicure-text {
