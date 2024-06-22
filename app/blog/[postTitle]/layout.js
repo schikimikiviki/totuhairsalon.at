@@ -1,5 +1,3 @@
-import HeaderMinimal from '@/app/components/HeaderMinimal';
-import postsData from './posts.json';
 import '../../globals.css';
 
 export const metadata = {
@@ -13,10 +11,7 @@ export const metadata = {
 export default function BlogLayout({ children }) {
   return (
     <html lang='en'>
-      <body>
-        <HeaderMinimal />
-        {children}
-      </body>
+      <body>{children}</body>
     </html>
   );
 }
