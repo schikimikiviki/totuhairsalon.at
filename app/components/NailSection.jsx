@@ -16,6 +16,7 @@ const NailSection = (props) => {
             height={1000}
           />
         </div>
+
         <div className='manicure-text'>
           <p className='heading'>
             {props.isPolish ? 'Manicure' : 'Nageldesign'}

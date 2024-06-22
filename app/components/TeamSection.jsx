@@ -1,12 +1,12 @@
-import React from 'react'
-import aneta from '../media/aneta.jpg'
-import Image from 'next/image'
+import React from 'react';
+import aneta from '../media/aneta.jpg';
+import Image from 'next/image';
 
 const TeamSection = (props) => {
   return (
-    <div className="team-div" id="team">
-      <div className="team-text">
-        <p className="heading">{props.isPolish ? 'O nas' : 'Unser Team'} </p>
+    <div className='team-div' id='team'>
+      <div className='team-text'>
+        <p className='heading'>{props.isPolish ? 'O nas' : 'Unser Team'} </p>
         <p>
           {props.isPolish
             ? 'Dziękujemy za poświęcenie czasu, aby nas trochę poznać. Nasz zespół składa się wyłącznie ze specjalistów, którzy są przeszkoleni, aby doradzać we wszystkich kwestiach związanych z stylizacją, pielęgnacją i koloryzacją włosów. '
@@ -31,17 +31,18 @@ const TeamSection = (props) => {
             : 'Ihre Aneta Griego & Team'}
         </p>
       </div>
-      <div className="aneta-img">
+
+      <div className='aneta-img'>
         <Image
           src={aneta.src}
-          alt="image"
-          layout="responsive"
+          alt='image'
+          layout='responsive'
           width={750}
           height={500}
         />
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default TeamSection
+export default TeamSection;

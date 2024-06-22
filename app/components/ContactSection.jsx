@@ -8,6 +8,13 @@ import Button from './Button';
 import Link from 'next/link';
 
 const ContactSection = (props) => {
+  const handleScrollToTop = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth',
+    });
+  };
+
   return (
     <div
       style={{
@@ -102,6 +109,12 @@ const ContactSection = (props) => {
                   : 'Datenschutz und Cookies'}
               </Link>
             </p>
+          </div>
+          <div style={{ position: 'absolute', bottom: 0, padding: '20px' }}>
+            <Button
+              onClick={handleScrollToTop}
+              text={props.isPolish ? 'Wróć do góry' : 'Zurück zum Anfang'}
+            />
           </div>
         </div>
       </div>

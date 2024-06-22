@@ -286,6 +286,7 @@ a:hover {
   padding: 50px;
   width: 10%;
   display: grid;
+  position: relative;
 }
 
 .blogpost-section {
@@ -392,8 +393,21 @@ a:hover {
 .photo-carousel-mobile {
   display: none;
 }
+
 /* Media query for mobile devices */
 @media (max-width: 700px) {
+  .blogpost-section {
+    padding: 5px;
+  }
+
+  .blog-post {
+    width: 100%;
+  }
+
+  .header-container {
+    height: auto;
+  }
+
   .photo-carousel {
     display: none;
   }

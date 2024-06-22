@@ -44,7 +44,7 @@ const Header = ({ sendIsPolish }) => {
 
   return (
     <>
-      <div className='header-container'>
+      <div className='header-container' id='top'>
         <div className='background-header'>
           <Image
             src={headerImage.src}
