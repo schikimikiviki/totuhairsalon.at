@@ -1,6 +1,6 @@
 import React from 'react';
 import BlogPost from './BlogPost';
-import postsData from '../blogposts/posts.json';
+import postsData from '../blog/[postTitle]/posts.json';
 import Link from 'next/link';
 
 const ProductSection = (props) => {

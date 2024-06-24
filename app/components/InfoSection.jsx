@@ -36,7 +36,7 @@ const InfoSection = (props) => {
 
           <p>
             {props.isPolish
-              ? 'Od 2018 roku pracujemy nad zaoferowaniem naszym klientom wyjątkowego doświadczenia. Dla nas obejmuje to przede wszystkim jedno: kompetentne doradztwo. '
+              ? 'Od 2018 roku pracujemy nad zaoferowaniem naszym klientom i klientkom wyjątkowego doświadczenia. Dla nas obejmuje to przede wszystkim jedno: kompetentne doradztwo. '
               : 'Seit 2018 arbeiten wir daran, unseren Kundinnen und Kunden ein besonderes Erlebnis zu bieten. Dazu gehört für uns vor allem eines: eine kompetente Beratung.'}
           </p>
 

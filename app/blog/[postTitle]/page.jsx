@@ -3,7 +3,7 @@ import BlogContents from '@/app/components/BlogContents';
 
 async function BlogPage({ params }) {
   const file = await fs.readFile(
-    process.cwd() + '/app/blogposts/posts.json',
+    process.cwd() + '/app/blog/[postTitle]/posts.json',
     'utf8'
   );
   const data = JSON.parse(file);

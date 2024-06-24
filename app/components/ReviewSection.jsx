@@ -46,12 +46,12 @@ const ReviewSection = (props) => {
           </p>
           <p>
             {props.isPolish
-              ? 'Zadowolenie naszych klientów jest naszym najwyższym priorytetem. Wiemy, że piękno dla każdego oznacza coś innego – zgodnie z tym projektujemy naszą codzienną pracę. Obejmuje to osobiste porady i spełnienie indywidualnych życzeń. Sprawdź zdjęcia, aby rzucić okiem na naszą pracę! '
+              ? 'Zadowolenie naszych klientów i klientek jest naszym najwyższym priorytetem. Wiemy, że piękno dla każdego oznacza coś innego – zgodnie z tym projektujemy naszą codzienną pracę. Obejmuje to osobiste porady i spełnienie indywidualnych życzeń. Sprawdź zdjęcia, aby rzucić okiem na naszą pracę! '
               : 'Die Zufriedenheit unserer Kundinnen und Kunden ist unser höchstes Gebot. Wir wissen, dass Schönheit für jeden etwas Anderes bedeutet – dementsprechend gestalten wir unsere tägliche Arbeit. Dazu gehören eine persönliche Typberatung und die Erfüllung individueller Wünsche. Sehen Sie sich die Fotos an, um einen Einblick in unsere Arbeit zu erhalten!'}
           </p>
           <p>
             {props.isPolish
-              ? 'Nie jesteś pewien, czy jesteśmy dla Ciebie odpowiednim salonem fryzjerskim? Przyjdź i zobacz naszą pracę na własne oczy! Nasza klientela to bardzo zróżnicowane osoby - jesteśmy pewni, że znajdziemy odpowiednie rozwiązanie dla Twoich potrzeb.'
+              ? 'Nie jesteś pewny/a, czy jesteśmy dla Ciebie odpowiednim salonem fryzjerskim? Przyjdź i zobacz naszą pracę na własne oczy! Nasza klientela to bardzo zróżnicowane osoby - jesteśmy pewni, że znajdziemy odpowiednie rozwiązanie dla Twoich potrzeb.'
               : 'Sie sind sich nicht sicher, ob wir der richtige Frisörsalon für Sie sind? Kommen Sie vorbei und lassen Sie sich selbst von unserer Arbeit überzeugen! Zu unserer Klientel gehören die verschiedensten Menschen – wir sind uns sicher, dass wir auch für Ihre Bedürfnisse die richtige Lösung finden.'}
           </p>
           <div className='review-carousel'>

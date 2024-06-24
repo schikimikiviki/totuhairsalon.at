@@ -1,7 +1,7 @@
 import Link from 'next/link';
 
 const BlogPost = ({ post, isPolish, propLayout }) => {
-  let linkInternal = `/blogposts/${post.internalLink}`;
+  let linkInternal = `/blog/${post.internalLink}`;
   const url = post.blogImage;
 
   return (

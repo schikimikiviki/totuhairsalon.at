@@ -32,7 +32,7 @@ const ContactSection = (props) => {
           <p className='heading'>Kontakt</p>
           <p>
             {props.isPolish
-              ? 'Masz pytania dotyczące naszych usług lub chciałbyś umówić się na spotkanie? Po prostu zadzwoń do nas lub skorzystaj z linku Treatwell, aby umówić się na wizytę.'
+              ? 'Masz pytania dotyczące naszych usług lub chciałbyś umówić się na spotkanie? Po prostu zadzwoń do nas, aby umówić się na wizytę.'
               : 'Sie haben Fragen zu unseren Leistungen oder möchten einen Termin vereinbaren? Rufen Sie uns einfach an und vereinbaren Sie einen Termin.'}
           </p>
           <Button

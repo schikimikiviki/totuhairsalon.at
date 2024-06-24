@@ -185,6 +185,12 @@ a:hover {
   text-align: justify;
 }
 
+.post-inner-blog {
+  display: flex;
+  padding: 100px;
+  line-height: 2;
+}
+
 .image-box-2 {
   display: flex;
   width: 100%;
@@ -394,8 +400,21 @@ a:hover {
   display: none;
 }
 
+.text-blog {
+  text-align: justify;
+}
+
 /* Media query for mobile devices */
 @media (max-width: 700px) {
+  .text-blog {
+    text-align: left;
+  }
+
+  .post-inner-blog {
+    padding: 20px;
+    flex-direction: column;
+  }
+
   .blogpost-section {
     padding: 5px;
   }

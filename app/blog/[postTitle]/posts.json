@@ -466,6 +466,74 @@
       "link": false,
       "blogImage": "polieren.jpg",
       "internalLink": "polierung"
+    },
+    {
+      "title": "Brillbird",
+      "titlePL": "Brillbird",
+      "headings": [{ "text": "Über Brillbird" }],
+      "headingsPL": [{ "text": "O marce Brillbird" }],
+      "paragraphs": [
+        "Brillbird ist eine etablierte Marke im Bereich Nagelpflege. Der Hersteller ermöglicht Ihnen die perfekte Nagelmodellage, künstliche Fingernägel und traumhaftes Nageldesign. Das Sortiment umfasst von UV-Gel, Farbgel, French Gel über Nagel-Tips bis hin zum UV-Geräten alles, was eine makellose Nagelmodellage braucht. Mit BrillBird garantieren wir höchste Zufriedenheit und einen hohen Qualitätsstandard.  "
+      ],
+      "paragraphsPL": [
+        "Brillbird jest renomowaną marką w sektorze pielęgnacji paznokci. Producent umożliwia uzyskanie perfekcyjnego modelowania paznokci, sztucznych paznokci i wymarzonej stylizacji paznokci. Asortyment obejmuje żel UVŻel kolorowytipsyi urządzenia UV - wszystko, czego potrzebujesz do nieskazitelnego modelowania paznokci. Z BrillBird gwarantujemy najwyższy poziom satysfakcji i wysoki standard jakości.  "
+      ],
+      "link": true,
+      "linktext": "Mehr dazu auf der offiziellen BrillBird Seite",
+      "hypertext": "https://brillbirdshop.at/",
+      "internalLink": "brillbird",
+      "blogImage": "brillbird.jpg"
+    },
+    {
+      "title": "Neonail",
+      "titlePL": "Neonail",
+      "headings": [{ "text": "Über Neonail" }],
+      "headingsPL": [{ "text": "O marce neonail" }],
+      "paragraphs": [
+        "Die Marke Neonail zählt mit 15-jähriger Expertise bereits zu den etablierten Herstellern von UV-Nagellacken. Mit über 400 Lacken hat Neonail ein breites Sortiment an Farben, um einen außergewöhnlichen Look für Sie zu kreieren. Neuartig, emotional, originell – so beschreibt sich die Marke selbst. Wir finden, das stimmt! "
+      ],
+      "paragraphsPL": [
+        "Dzięki 15-letniemu doświadczeniu marka Neonail jest już jednym z uznanych producentów lakierów UV do paznokci. Z ponad 400 Neonaillakierami Neonail posiada szeroką gamę kolorów, aby stworzyć dla Ciebie niezwykły wygląd. Nowatorska, emocjonalna, oryginalna - tak opisuje siebie ta marka. Też tak uważamy!  "
+      ],
+      "link": true,
+      "linktext": "Mehr dazu auf der offiziellen Neonail Seite",
+      "hypertext": "https://neonail.de/",
+      "internalLink": "neonail",
+      "blogImage": "neonail.jpg"
+    },
+    {
+      "title": "Farmona",
+      "titlePL": "Farmona",
+      "headings": [{ "text": "Über Farmona" }],
+      "headingsPL": [{ "text": "O marce Farmona" }],
+      "paragraphs": [
+        "Farmona ist die Marke unseres Vertrauens, wenn es um professionelle Nagel-, und Hautpflege geht. Die Philosophie des 1997 in Krakau gegründeten Unternehmens verbindet die neuesten Erkenntnisse der Kosmetologie mit der pflegenden Kraft natürlicher pflanzlicher Inhaltsstoffe. Das Ziel des Herstellers Farmona ist es, qualitativ hochwertige kosmetische Produkte herzustellen, die den funktionellen und ästhetischen Anforderungen entsprechen und umweltfreundliche Technologien verwenden. Kaufen Sie die Produkte von Farmona auch bei uns im Studio! "
+      ],
+      "paragraphsPL": [
+        "Farmona to marka, której ufamy, jeśli chodzi o profesjonalną pielęgnację paznokci i skóry. Filozofia firmy, założonej w 1997 roku w Krakowie, łączy najnowsze odkrycia kosmetologii z pielęgnacyjną mocą naturalnych składników roślinnych. Celem producenta Farmona jest wytwarzanie wysokiej jakości produktów kosmetycznych, spełniających wymogi funkcjonalne i estetyczne oraz wykorzystujących technologie przyjazne dla środowiska. Produkty Farmony kupisz również w naszym studio! "
+      ],
+      "link": true,
+      "linktext": "Mehr dazu auf der offiziellen Farmona Seite",
+      "hypertext": "https://farmona.pl/en/",
+      "internalLink": "farmona",
+      "blogImage": "farmona.jpg"
+    },
+    {
+      "title": "Semilac",
+      "titlePL": "Semilac",
+      "headings": [{ "text": "Über Semilac" }],
+      "headingsPL": [{ "text": "O marce Semilac" }],
+      "paragraphs": [
+        "Semilac ist ein von Frauen inspiriertes und betriebenes Unternehmen. Das Ziel von Semilac ist es, Verbraucherinnen auf der ganzen Welt ein einzigartiges Nageldesign zu ermöglichen. Dieses Ziel wird durch eine professionelle Formel, gleichmäßige Deckkraft und eine langanhaltende Farbe auch erreicht. Überzeugen auch Sie sich von den Lacken und Pflegeprodukten von Semilac!  "
+      ],
+      "paragraphsPL": [
+        "Semilac to firma inspirowana i prowadzona przez kobiety. Celem Semilac jest dostarczanie konsumentom na całym świecie niepowtarzalnych wzorów paznokci. Cel ten osiągamy dzięki profesjonalnej formule, równomiernemu kryciu i długotrwałemu kolorowi. Przekonaj się o farbach i produktach pielęgnacyjnych firmy Semilac! "
+      ],
+      "link": true,
+      "linktext": "Mehr dazu auf der offiziellen Semilac Seite",
+      "hypertext": "https://semilac.de/de/",
+      "internalLink": "semilac",
+      "blogImage": "semilac.jpg"
     }
   ]
 }

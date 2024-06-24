@@ -4,7 +4,7 @@ import { useState } from 'react';
 import Link from 'next/link';
 import HeaderMinimal from '@/app/components/HeaderMinimal';
 import BlogPost from '../components/BlogPost';
-import postsData from '../blogposts/posts.json';
+import postsData from '../blog/[postTitle]/posts.json';
 
 export default function Blogpage() {
   const [isPolish, setIsPolish] = useState(false);

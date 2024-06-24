@@ -1,10 +1,12 @@
 import React from 'react';
 import nailsBackground from '../media/golden-nails.jpg';
 import Image from 'next/image';
-import postsData from '../blogposts/posts_nails.json';
+import postsData from '../blog/[postTitle]/posts.json';
 import BlogPost from './BlogPost';
 
 const NailSection = (props) => {
+  const lastEntries = postsData.posts.slice(-4);
+
   return (
     <>
       <div className='manicure-div' id='manicure'>
@@ -125,7 +127,7 @@ const NailSection = (props) => {
             : 'Auch beim Nageldesign ist es essenziell, die richtigen Produkte zu verwenden. In unserem Studio verwenden wir ausschließlich Produkte der folgenden Hersteller:'}
         </p>
         <div className='blogposts-nails'>
-          {postsData.posts.map((post, index) => (
+          {lastEntries.map((post, index) => (
             <BlogPost key={index} post={post} isPolish={props.isPolish} />
           ))}
         </div>
