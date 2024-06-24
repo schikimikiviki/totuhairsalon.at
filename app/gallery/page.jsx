@@ -62,7 +62,6 @@ import FiftyFive from '../media/55.jpg';
 import FiftySix from '../media/56.jpg';
 import FiftySeven from '../media/57.jpg';
 import FiftyEight from '../media/58.jpg';
-import FiftyNine from '../media/59.jpg';
 import Sixty from '../media/60.jpg';
 import SixtyOne from '../media/61.jpg';
 import SixtyTwo from '../media/61.jpg';
@@ -160,7 +159,6 @@ export default function Gallery() {
       FourtyTwo,
       FourtyThree,
       FourtyFour,
-      FiftyNine,
     ],
   };
 
